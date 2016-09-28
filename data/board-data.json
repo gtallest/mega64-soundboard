@@ -1,0 +1,22 @@
+[{
+  "characterClass":"treCool",
+  "characterName":"Tre Cool",
+  "cast":"Rocco",
+  "audio": [
+      "./audio/no_diggity_doberman.mp3"
+  ],
+  "quote":"No Diggity Doberman",
+  "source":"Podcast 371"
+},
+{
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+
+  ],
+  "quote":"We are what we eat",
+  "source":""
+}
+
+]

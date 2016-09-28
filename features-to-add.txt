@@ -1,0 +1,31 @@
+// Features to Add:
+
+  // Search Function
+  //   -Auto-Fill
+  //
+  // Quote Speech Bubbles
+  //
+  // Filter Function
+  //   .filter()
+
+    $('#board-list li').filter(function(){
+    // return $('div', $(this)).hasClass('Rocco') || $('div', $(this)).hasClass('Rocco_1');
+      return $('div', $(this)).is('.Rocco, .Derrick');
+    }).hide();
+    
+    var filterList = {
+      "rocco":true,
+      "shawn":true,
+      "derrick":true,
+      "garrett":true,
+      "eric":true,
+      "kevin":true,
+      "2011":true,
+      "2012":true,
+      "2013":true,
+      "2014":true,
+      "2015":true
+    };
+
+
+  // Change marquee to css animation
