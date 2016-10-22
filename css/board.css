@@ -171,6 +171,7 @@ h2{
   text-align: left;
   display:none;
   margin-top:40px;
+  padding-left:15px;
 }
 
 #board-list li {
@@ -425,4 +426,16 @@ transform: scale(0.98, 0.98);
   0% {background:#fd1da2}
   50% {background:#31d9f7}
   100% {background:#fd1da2}
+}
+
+
+/*Responsive*/
+@media only screen and (max-width:375px){
+  #title h1 {
+    font-size:45px !important;
+  }
+  .speech-bubble {
+    width: 120px !important;
+    min-width: 0 !important;
+  }
 }

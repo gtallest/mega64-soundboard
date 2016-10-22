@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+  //Initialize
   var boardHTML = "";
   var quoteArray = [];
   var charArray = [];
@@ -9,6 +10,7 @@ $(document).ready(function(){
   //Sort alphabetically by cast
   json.sort(function(a,b) {return (a["characterName"] > b["characterName"]) ? 1 : ((b["characterName"] > a["characterName"]) ? -1 : 0);} );
 
+  //Create board
   for(var j in json){
 
     if(json[j].audio.length === 0){
@@ -36,12 +38,7 @@ $(document).ready(function(){
 
   $('#board-list').html(boardHTML);
 
-  // $('.portrait-image').on('mouseover',function(){
-  //   $('.speech-bubble', $(this).parentNode).css('opacity','1');
-  // });
-  // $('.portrait-image').on('mouseout',function(){
-  //   $('.speech-bubble', $(this).parentNode).css('opacity','0');
-  // });
+
 
 
 
@@ -52,29 +49,9 @@ $(document).ready(function(){
 
   $('.quote-filter').on('click',function(){
     $(this).toggleClass('filter-inactive');
+    $('.' + this.innerHTML).parent().toggle();
   });
 
-  $('.rocco-filter').on('click',function(){
-    $('.Rocco').parent().toggle();
-  });
-  $('.derrick-filter').on('click',function(){
-    $('.Derrick').parent().toggle();
-  });
-  $('.garrett-filter').on('click',function(){
-    $('.Garrett').parent().toggle();
-  });
-  $('.eric-filter').on('click',function(){
-    $('.Eric').parent().toggle();
-  });
-  $('.shawn-filter').on('click',function(){
-    $('.Shawn').parent().toggle();
-  });
-  $('.kevin-filter').on('click',function(){
-    $('.Kevin').parent().toggle();
-  });
-  $('.bryan-filter').on('click',function(){
-    $('.Bryan').parent().toggle();
-  });
 
 $('#filter-highlight').css('left', $('#search-glass').position().left + 2);
 
@@ -83,13 +60,15 @@ $('#filter-icon').on('click',function(){
     $(this).toggleClass('filter-active');
     $('#search-glass').toggleClass('filter-active');
   }
-  $('#board-list li').show();
-  $('.quote-filter').removeClass('filter-inactive');
+  $('#board-list').slideUp();
+  $('.quote-filter').addClass('filter-inactive');
   $('#search input').val('');
   $('#search input').keyup();
   $('#filter-highlight').css('left', $('#filter-icon').position().left);
   $('#search').slideUp((function(){
+    $('#board-list li').hide();
     $('#filter-list').slideDown();
+    $('#board-list').slideDown();
   }));
 });
 $('#search-glass').on('click',function(){
@@ -97,11 +76,13 @@ $('#search-glass').on('click',function(){
     $(this).toggleClass('filter-active');
     $('#filter-icon').toggleClass('filter-active');
   }
-  $('#board-list li').show();
-  $('.quote-filter').removeClass('filter-inactive');
+  $('#board-list').slideUp();
   $('#filter-highlight').css('left', $('#search-glass').position().left + 1);
   $('#filter-list').slideUp(function(){
+    $('.quote-filter').removeClass('filter-inactive');
     $('#search').slideDown();
+    $('#board-list li').show();
+    $('#board-list').slideDown();
   });
 });
 
@@ -119,7 +100,7 @@ console.log('val: ' + val);
     }).hide();
 });
 
-//Clear
+//Clear search
 $('#search-clear').on('click',function(){
   $('#search input').val('');
   $('#search input').keyup();

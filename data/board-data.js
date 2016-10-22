@@ -76,6 +76,17 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=yXN-LSuXw5M"
 },
 {
+  "characterClass":"Derrick_2",
+  "characterName":"Derrick",
+  "cast":"Derrick",
+  "audio": [
+    "./audio/gdt.mp3"
+  ],
+  "quote":"Gwellmerro Del Thantos",
+  "source":"Podcast 317 - Guardians of the Galaxy",
+  "sourceLink":"https://www.youtube.com/watch?v=FYeasFIgEow"
+},
+{
   "characterClass":"Garrett_1",
   "characterName":"Garrett",
   "cast":"Garrett",
@@ -347,6 +358,17 @@ var json = [{
 
   ],
   "quote":"*insert Kevin quote here*",
+  "source":"source",
+  "sourceLink":"#"
+},
+{
+  "characterClass":"sixtyFour",
+  "characterName":"mega64",
+  "cast":"Mega64",
+  "audio": [
+
+  ],
+  "quote":"Binders",
   "source":"source",
   "sourceLink":"#"
 }
