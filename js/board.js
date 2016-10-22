@@ -6,10 +6,16 @@ $(document).ready(function(){
   var quotesAndChars;
   var noAudio = '';
 
+  //Sort alphabetically by cast
+  json.sort(function(a,b) {return (a["characterName"] > b["characterName"]) ? 1 : ((b["characterName"] > a["characterName"]) ? -1 : 0);} );
+
   for(var j in json){
 
     if(json[j].audio.length === 0){
-      noAudio = '<div class="noAudio"><i class="fa fa-volume-up"></i><div class="audioSlash"></div></div>';
+      noAudio = '<div class="noAudio"><i class="fa fa-microphone-slash"></i><div class="audioSlash"></div></div>';
+    }
+    else {
+      noAudio = '';
     }
 
     var portraitHTML = '<li>      <div class="portrait-image ' + json[j].characterClass + ' ' + json[j].cast + '">      </div>      <div class="tool-tip">' + json[j].characterName + '<div class="triangle">        </div>      </div>      <div class="speech-bubble"><span class="quote-text">"' + json[j].quote + '"</span><span class="quote-divider"></span><span class="quote-source">-<a href="' + json[j].sourceLink + '" target="_blank">' + json[j].source + '</a></span></div> ' + noAudio + '     <audio preload="none">      <source src="' + json[j].audio[0] + '" type="audio/mp3"/></audio>    </li>\n';
@@ -57,6 +63,18 @@ $(document).ready(function(){
   $('.garrett-filter').on('click',function(){
     $('.Garrett').parent().toggle();
   });
+  $('.eric-filter').on('click',function(){
+    $('.Eric').parent().toggle();
+  });
+  $('.shawn-filter').on('click',function(){
+    $('.Shawn').parent().toggle();
+  });
+  $('.kevin-filter').on('click',function(){
+    $('.Kevin').parent().toggle();
+  });
+  $('.bryan-filter').on('click',function(){
+    $('.Bryan').parent().toggle();
+  });
 
 $('#filter-highlight').css('left', $('#search-glass').position().left + 2);
 
@@ -91,7 +109,7 @@ $('#search-glass').on('click',function(){
 //Search Filter
 $quotes = $('#board-list li');
 $('#search input').keyup(function(){
-  var val = '^(?=.*\\b' + $.trim($(this).val()).split(/:*-*,*\s+/).join('\\b)(?=.*\\b') + ').*$',
+  var val = '^(?=.*\\b' + $.trim($(this).val()).split(/\.*:*-*,*\s+/).join('\\b)(?=.*\\b') + ').*$',
         reg = RegExp(val, 'i'),
         text;
 console.log('val: ' + val);

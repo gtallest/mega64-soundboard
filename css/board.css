@@ -305,17 +305,24 @@ transform: scale(0.98, 0.98);
 
 .noAudio {
   position: absolute;
-  top: 0;
+  width:20px;
+  height:20px;
+  text-align: center;
+  bottom: 5px;
   right: 0;
   color: white;
   font-size: 18px;
   border-radius: 100px;
   padding: 4px;
-  background: #4b4bf5;
+  background:#fd1da2;
+  /*opacity:0.5;*/
+  /*background: #4b4bf5;*/
   /*background:purple;*/
+  /*animation: puls 3s ease infinite;*/
 }
 
 .audioSlash {
+  display:none;
   position: absolute;
   right: 12px;
   top: 0px;
@@ -349,7 +356,7 @@ transform: scale(0.98, 0.98);
   background-image:url('../images/tre-cool.png');
 }
 .Rocco_1 {
-  background-image:url('../images/rocco.png')
+  background-image:url('../images/rocco3.png')
 }
 .newBatman {
   background-image:url('../images/new-batman.png');
@@ -372,8 +379,33 @@ transform: scale(0.98, 0.98);
   width:150px;
 }
 
+.Eric_1 {
+  background-image:url('../images/eric.png');
+}
+
+.Garrett_1 {
+  background-image:url('../images/garrett2.png');
+}
+
+.Derrick_1 {
+  background-image:url('../images/derrick.png');
+}
+.Derrick_2 {
+  background-image:url('../images/derrick2_2.png');
+}
+
 .sixtyFour {
   background-image:url('../images/64.png');
+}
+
+.Shawn_1 {
+  background-image:url('../images/shawn.png');
+}
+.Kevin_1 {
+  background-image:url('../images/kevin.png');
+}
+.Bryan_1 {
+  background-image:url('../images/bryan2.png');
 }
 
 
@@ -387,4 +419,10 @@ transform: scale(0.98, 0.98);
   0% {opacity:1}
   50% {opacity:0}
   100% {opacity:1}
+}
+
+@keyframes puls {
+  0% {background:#fd1da2}
+  50% {background:#31d9f7}
+  100% {background:#fd1da2}
 }

@@ -12,7 +12,7 @@
     // return $('div', $(this)).hasClass('Rocco') || $('div', $(this)).hasClass('Rocco_1');
       return $('div', $(this)).is('.Rocco, .Derrick');
     }).hide();
-    
+
     var filterList = {
       "rocco":true,
       "shawn":true,
@@ -28,4 +28,7 @@
     };
 
 
-  // Change marquee to css animation
+
+  Add viewport
+  Add analytics
+  Make responsive

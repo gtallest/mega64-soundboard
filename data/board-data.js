@@ -65,25 +65,80 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=ViaSCEYgWIA"
 },
 {
-  "characterClass":"sixtyFour",
+  "characterClass":"Derrick_2",
   "characterName":"Derrick",
   "cast":"Derrick",
   "audio": [
     "./audio/kings_of_leon.mp3"
   ],
-  "quote":"Kings of Leon: Ooooh ah oooooooohh uhhhhhhahhhuhhh ahahhhuhhhhhh",
+  "quote":"Kings of Leon: Ooooh ah oooooooohh uhhhhhhahhhuhhhhhhhhh ahahhhuhhhhhh",
   "source":"Podcast 362",
   "sourceLink":"https://www.youtube.com/watch?v=yXN-LSuXw5M"
 },
 {
+  "characterClass":"Garrett_1",
+  "characterName":"Garrett",
+  "cast":"Garrett",
+  "audio": [
+    "./audio/j_j_j_jorker.mp3"
+  ],
+  "quote":"I'm f-f-f-frightened of the J-J-J-Jorker.",
+  "source":"Podcast 354",
+  "sourceLink":"https://www.youtube.com/watch?v=tU6_4vyIhfs"
+},
+{
+  "characterClass":"Derrick_2",
+  "characterName":"Derrick",
+  "cast":"Derrick",
+  "audio": [
+    "./audio/sweet_n_low.mp3"
+  ],
+  "quote":"I ordered it with fuckin' Sweet & Low!",
+  "source":"Podcast 354",
+  "sourceLink":"https://www.youtube.com/watch?v=tU6_4vyIhfs"
+},
+{
+  "characterClass":"Derrick_2",
+  "characterName":"Derrick",
+  "cast":"Derrick",
+  "audio": [
+
+  ],
+  "quote":"Slam dunk!",
+  "source":"Podcast 355",
+  "sourceLink":""
+},
+{
   "characterClass":"Rocco_1",
   "characterName":"Rocco",
   "cast":"Rocco",
   "audio": [
+    "./audio/homeless_homes.mp3"
+  ],
+  "quote":"Do the homeless ever think about moving into a home? Duh!",
+  "source":"Podcast 355",
+  "sourceLink":"https://www.youtube.com/watch?v=6Maa4o5zfLs"
+},
+{
+  "characterClass":"Garrett_1",
+  "characterName":"Garrett",
+  "cast":"Garrett",
+  "audio": [
+    "./audio/afk.mp3"
+  ],
+  "quote":"I thought it was Ask For Kisses.",
+  "source":"Podcast 355",
+  "sourceLink":"https://www.youtube.com/watch?v=6Maa4o5zfLs"
+},
+{
+  "characterClass":"Garrett_1",
+  "characterName":"Garrett",
+  "cast":"Garrett",
+  "audio": [
 
   ],
-  "quote":"We are what we eat",
-  "source":"",
+  "quote":"Keep it controvoisial.",
+  "source":"Podcast 303",
   "sourceLink":""
 },
 {
@@ -93,8 +148,8 @@ var json = [{
   "audio": [
 
   ],
-  "quote":"We are what we eat",
-  "source":"",
+  "quote":"Snapchat",
+  "source":"Podcast 409",
   "sourceLink":""
 },
 {
@@ -104,9 +159,9 @@ var json = [{
   "audio": [
 
   ],
-  "quote":"We are what we eat",
-  "source":"",
-  "sourceLink":""
+  "quote":"Ron Paul, Ron Paul...",
+  "source":"Podcast 236: Binders",
+  "sourceLink":"https://www.youtube.com/watch?v=R7ytxS_Mu_E"
 },
 {
   "characterClass":"Rocco_1",
@@ -115,85 +170,184 @@ var json = [{
   "audio": [
 
   ],
-  "quote":"We are what we eat",
-  "source":"",
-  "sourceLink":""
+  "quote":"Oppan Binder Style!",
+  "source":"Podcast 236: Binders",
+  "sourceLink":"https://www.youtube.com/watch?v=R7ytxS_Mu_E"
+},
+{
+  "characterClass":"dogBountyHunter",
+  "characterName":"Dog, the Bounty Hunter",
+  "cast":"Garrett",
+  "audio": [
+
+  ],
+  "quote":"I'm not a racist!",
+  "source":"METAL GEAR SOLID V SPOOF",
+  "sourceLink":"https://www.youtube.com/watch?v=oORxO1LGNCg"
+},
+{
+  "characterClass":"dogBountyHunter",
+  "characterName":"Dog, the Bounty Hunter",
+  "cast":"Garrett",
+  "audio": [
+    "./audio/looking_jared_fogle.mp3"
+  ],
+  "quote":"I'm looking for filthy child-sex-pervert, sandwich-lover Jared Fogle.",
+  "source":"METAL GEAR SOLID V SPOOF",
+  "sourceLink":"https://www.youtube.com/watch?v=oORxO1LGNCg"
+},
+{
+  "characterClass":"Eric_1",
+  "characterName":"Eric",
+  "cast":"Eric",
+  "audio": [
+  "./audio/got_em.mp3"
+  ],
+  "quote":"OOOOOOOOOOOOOOOHHHHHHHH!!! GOT EMMMMMMMM!",
+  "source":"Podcast 398",
+  "sourceLink":"https://www.youtube.com/watch?v=fBRKs9t5-DM"
+},
+{
+  "characterClass":"Eric_1",
+  "characterName":"Eric",
+  "cast":"Eric",
+  "audio": [
+  "./audio/airic_horn.mp3"
+  ],
+  "quote":"*air horn* FUCK YOU!",
+  "source":"Podcast 398",
+  "sourceLink":"https://www.youtube.com/watch?v=fBRKs9t5-DM"
+},
+{
+  "characterClass":"Eric_1",
+  "characterName":"Eric",
+  "cast":"Eric",
+  "audio": [
+  "./audio/airic_horn.mp3"
+  ],
+  "quote":"*air horn* FUCK YOU!",
+  "source":"Podcast 398",
+  "sourceLink":"https://www.youtube.com/watch?v=fBRKs9t5-DM"
 },
 {
   "characterClass":"Rocco_1",
   "characterName":"Rocco",
   "cast":"Rocco",
   "audio": [
-
+  "./audio/ben_affleck_1.mp3"
   ],
-  "quote":"We are what we eat",
-  "source":"",
-  "sourceLink":""
+  "quote":"Ben Affleck, you rat fuck.",
+  "source":"Podcast 272: Ben Affleck (Part 2)",
+  "sourceLink":"https://www.youtube.com/watch?v=1K2_DSr2AxU"
 },
 {
-  "characterClass":"Rocco_1",
-  "characterName":"Rocco",
-  "cast":"Rocco",
+  "characterClass":"Garrett_1",
+  "characterName":"Garrett",
+  "cast":"Garrett",
+  "audio": [
+  "./audio/hello_excuse_me.mp3"
+  ],
+  "quote":"Hello, excuse me? Cunnilingus please!",
+  "source":"Podcast 291",
+  "sourceLink":"https://www.youtube.com/watch?v=tRrvriAlceE"
+},
+{
+  "characterClass":"Shawn_1",
+  "characterName":"Shawn",
+  "cast":"Shawn",
   "audio": [
 
   ],
-  "quote":"We are what we eat",
-  "source":"",
-  "sourceLink":""
+  "quote":"*insert Shawn quote here*",
+  "source":"source",
+  "sourceLink":"#"
 },
 {
-  "characterClass":"Rocco_1",
-  "characterName":"Rocco",
-  "cast":"Rocco",
+  "characterClass":"Shawn_1",
+  "characterName":"Shawn",
+  "cast":"Shawn",
   "audio": [
 
   ],
-  "quote":"We are what we eat",
-  "source":"",
-  "sourceLink":""
+  "quote":"*insert Shawn quote here*",
+  "source":"source",
+  "sourceLink":"#"
 },
 {
-  "characterClass":"Rocco_1",
-  "characterName":"Rocco",
-  "cast":"Rocco",
+  "characterClass":"Shawn_1",
+  "characterName":"Shawn",
+  "cast":"Shawn",
   "audio": [
 
   ],
-  "quote":"We are what we eat",
-  "source":"",
-  "sourceLink":""
+  "quote":"*insert Shawn quote here*",
+  "source":"source",
+  "sourceLink":"#"
 },
 {
-  "characterClass":"Rocco_1",
-  "characterName":"Rocco",
-  "cast":"Rocco",
+  "characterClass":"Bryan_1",
+  "characterName":"Bryan",
+  "cast":"Bryan",
   "audio": [
 
   ],
-  "quote":"We are what we eat",
-  "source":"",
-  "sourceLink":""
+  "quote":"*insert Bryan quote here*",
+  "source":"source",
+  "sourceLink":"#"
 },
 {
-  "characterClass":"Rocco_1",
-  "characterName":"Rocco",
-  "cast":"Rocco",
+  "characterClass":"Bryan_1",
+  "characterName":"Bryan",
+  "cast":"Bryan",
   "audio": [
 
   ],
-  "quote":"We are what we eat",
-  "source":"",
-  "sourceLink":""
+  "quote":"*insert Bryan quote here*",
+  "source":"source",
+  "sourceLink":"#"
 },
 {
-  "characterClass":"Rocco_1",
-  "characterName":"Rocco",
-  "cast":"Rocco",
+  "characterClass":"Bryan_1",
+  "characterName":"Bryan",
+  "cast":"Bryan",
   "audio": [
 
   ],
-  "quote":"We are what we eat",
-  "source":"",
-  "sourceLink":""
+  "quote":"*insert Bryan quote here*",
+  "source":"source",
+  "sourceLink":"#"
+},
+{
+  "characterClass":"Kevin_1",
+  "characterName":"Kevin",
+  "cast":"Kevin",
+  "audio": [
+
+  ],
+  "quote":"*insert Kevin quote here*",
+  "source":"source",
+  "sourceLink":"#"
+},
+{
+  "characterClass":"Kevin_1",
+  "characterName":"Kevin",
+  "cast":"Kevin",
+  "audio": [
+
+  ],
+  "quote":"*insert Kevin quote here*",
+  "source":"source",
+  "sourceLink":"#"
+},
+{
+  "characterClass":"Kevin_1",
+  "characterName":"Kevin",
+  "cast":"Kevin",
+  "audio": [
+
+  ],
+  "quote":"*insert Kevin quote here*",
+  "source":"source",
+  "sourceLink":"#"
 }
 ];
