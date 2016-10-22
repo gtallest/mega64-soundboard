@@ -39,8 +39,11 @@ $(document).ready(function(){
   $('#board-list').html(boardHTML);
 
 
-
-
+  //Touch behavior modification for mobile
+  $('.portrait-image').bind('touchend', function(){
+    var audio = this.parentNode.getElementsByTagName('audio')[0];
+    audio.play();
+  });
 
   $('.portrait-image').on('click',function(){
     var audio = this.parentNode.getElementsByTagName('audio')[0];
