@@ -39,11 +39,11 @@ $(document).ready(function(){
   $('#board-list').html(boardHTML);
 
 
-  //Touch behavior modification for mobile
-  $('.portrait-image').bind('touchend', function(){
-    var audio = this.parentNode.getElementsByTagName('audio')[0];
-    audio.play();
-  });
+  // //Touch behavior modification for mobile
+  // $('.portrait-image').bind('touchend', function(){
+  //   var audio = this.parentNode.getElementsByTagName('audio')[0];
+  //   audio.play();
+  // });
 
   $('.portrait-image').on('click',function(){
     var audio = this.parentNode.getElementsByTagName('audio')[0];
@@ -104,22 +104,25 @@ console.log('val: ' + val);
 });
 
 //Clear search
-$('#search-clear').on('click',function(){
+$('#search-clear').on('click', function(){
+  clearSearch();
+});
+
+function clearSearch() {
   $('#search input').val('');
   $('#search input').keyup();
   $('#search-clear').fadeOut();
-});
+}
 
-$('#search input').focus(function(){
-  $('#search-clear').fadeIn();
-}).blur(function(){
-  if($(this).val() !== ''){
-
-  }
-  else {
-    $('#search-clear').fadeOut();
-  }
-});
+$('#search input')
+  .focus(function(){
+    $('#search-clear').fadeIn();
+    })
+    .blur(function(){
+      if($(this).val() == ''){
+        $('#search-clear').fadeOut();
+      }
+    });
 
 //Auto Complete?
 var ac = new autoComplete({
@@ -141,8 +144,9 @@ var ac = new autoComplete({
 
 
 
-  var slide = function() {
-    $('#board-list').slideDown();
+var slide = function() {
+  $('#board-list').slideDown();
   };
   setTimeout(slide,500);
+
 });

@@ -32,3 +32,10 @@
   Add viewport
   Add analytics
   Make responsive
+
+  11/22/2016
+  Favorites
+    use cookie/cache or something
+    'this site uses cookies' notice, with timtams picture
+  Hamburger menu
+    filter-blur overlay

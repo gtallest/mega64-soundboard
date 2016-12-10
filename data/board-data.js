@@ -1,4 +1,5 @@
 var json = [{
+  "id":"001",
   "characterClass":"treCool",
   "characterName":"Tre Cool",
   "cast":"Rocco",
@@ -10,6 +11,7 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=ziHQUNZcVj4"
 },
 {
+  "id":"002",
   "characterClass":"Rocco_1",
   "characterName":"Rocco",
   "cast":"Rocco",
@@ -21,6 +23,7 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=efnYSfT574M"
 },
 {
+  "id":"003",
   "characterClass":"Rocco_1",
   "characterName":"Rocco",
   "cast":"Rocco",
@@ -32,6 +35,7 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=_bsR1T9RDGw"
 },
 {
+  "id":"004",
   "characterClass":"newBatman",
   "characterName":"New Batman",
   "cast":"Derrick",
@@ -43,6 +47,7 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=R_Y_wvY0Kdg"
 },
 {
+  "id":"005",
   "characterClass":"dogBountyHunter",
   "characterName":"Dog, the Bounty Hunter",
   "cast":"Garrett",
@@ -54,6 +59,7 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=oORxO1LGNCg"
 },
 {
+  "id":"006",
   "characterClass":"Rocco_1",
   "characterName":"Rocco",
   "cast":"Rocco",
@@ -65,6 +71,7 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=ViaSCEYgWIA"
 },
 {
+  "id":"007",
   "characterClass":"Derrick_2",
   "characterName":"Derrick",
   "cast":"Derrick",
@@ -76,6 +83,7 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=yXN-LSuXw5M"
 },
 {
+  "id":"008",
   "characterClass":"Derrick_2",
   "characterName":"Derrick",
   "cast":"Derrick",
@@ -87,6 +95,7 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=FYeasFIgEow"
 },
 {
+  "id":"009",
   "characterClass":"Garrett_1",
   "characterName":"Garrett",
   "cast":"Garrett",
@@ -98,6 +107,7 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=tU6_4vyIhfs"
 },
 {
+  "id":"010",
   "characterClass":"Derrick_2",
   "characterName":"Derrick",
   "cast":"Derrick",
@@ -109,6 +119,7 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=tU6_4vyIhfs"
 },
 {
+  "id":"011",
   "characterClass":"Derrick_2",
   "characterName":"Derrick",
   "cast":"Derrick",
@@ -120,6 +131,7 @@ var json = [{
   "sourceLink":""
 },
 {
+  "id":"012",
   "characterClass":"Rocco_1",
   "characterName":"Rocco",
   "cast":"Rocco",
@@ -131,6 +143,7 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=6Maa4o5zfLs"
 },
 {
+  "id":"013",
   "characterClass":"Garrett_1",
   "characterName":"Garrett",
   "cast":"Garrett",
@@ -142,6 +155,7 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=6Maa4o5zfLs"
 },
 {
+  "id":"014",
   "characterClass":"Garrett_1",
   "characterName":"Garrett",
   "cast":"Garrett",
@@ -153,6 +167,7 @@ var json = [{
   "sourceLink":""
 },
 {
+  "id":"015",
   "characterClass":"Rocco_1",
   "characterName":"Rocco",
   "cast":"Rocco",
@@ -164,6 +179,7 @@ var json = [{
   "sourceLink":""
 },
 {
+  "id":"016",
   "characterClass":"Rocco_1",
   "characterName":"Rocco",
   "cast":"Rocco",
@@ -175,6 +191,7 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=R7ytxS_Mu_E"
 },
 {
+  "id":"017",
   "characterClass":"Rocco_1",
   "characterName":"Rocco",
   "cast":"Rocco",
@@ -186,17 +203,19 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=R7ytxS_Mu_E"
 },
 {
+  "id":"018",
   "characterClass":"dogBountyHunter",
   "characterName":"Dog, the Bounty Hunter",
   "cast":"Garrett",
   "audio": [
-
+    "./audio/not_a_racist.mp3"
   ],
-  "quote":"I'm not a racist!",
+  "quote":"No, I'm not a racist!",
   "source":"METAL GEAR SOLID V SPOOF",
   "sourceLink":"https://www.youtube.com/watch?v=oORxO1LGNCg"
 },
 {
+  "id":"019",
   "characterClass":"dogBountyHunter",
   "characterName":"Dog, the Bounty Hunter",
   "cast":"Garrett",
@@ -208,6 +227,7 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=oORxO1LGNCg"
 },
 {
+  "id":"020",
   "characterClass":"Eric_1",
   "characterName":"Eric",
   "cast":"Eric",
@@ -219,6 +239,7 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=fBRKs9t5-DM"
 },
 {
+  "id":"021",
   "characterClass":"Eric_1",
   "characterName":"Eric",
   "cast":"Eric",
@@ -230,17 +251,19 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=fBRKs9t5-DM"
 },
 {
+  "id":"022",
   "characterClass":"Eric_1",
   "characterName":"Eric",
   "cast":"Eric",
   "audio": [
-  "./audio/airic_horn.mp3"
+    './audio/one_person_here.mp3'
   ],
-  "quote":"*air horn* FUCK YOU!",
-  "source":"Podcast 398",
-  "sourceLink":"https://www.youtube.com/watch?v=fBRKs9t5-DM"
+  "quote":"Certainly if there's one person here, Shawn's a rich bitch!",
+  "source":"Podcast 334",
+  "sourceLink":"https://www.youtube.com/watch?v=yy2s8_dNbMM"
 },
 {
+  "id":"023",
   "characterClass":"Rocco_1",
   "characterName":"Rocco",
   "cast":"Rocco",
@@ -252,6 +275,7 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=1K2_DSr2AxU"
 },
 {
+  "id":"024",
   "characterClass":"Garrett_1",
   "characterName":"Garrett",
   "cast":"Garrett",
@@ -263,6 +287,7 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=tRrvriAlceE"
 },
 {
+  "id":"025",
   "characterClass":"Shawn_1",
   "characterName":"Shawn",
   "cast":"Shawn",
@@ -274,6 +299,7 @@ var json = [{
   "sourceLink":"#"
 },
 {
+  "id":"026",
   "characterClass":"Shawn_1",
   "characterName":"Shawn",
   "cast":"Shawn",
@@ -285,6 +311,7 @@ var json = [{
   "sourceLink":"#"
 },
 {
+  "id":"027",
   "characterClass":"Shawn_1",
   "characterName":"Shawn",
   "cast":"Shawn",
@@ -296,6 +323,7 @@ var json = [{
   "sourceLink":"#"
 },
 {
+  "id":"028",
   "characterClass":"Bryan_1",
   "characterName":"Bryan",
   "cast":"Bryan",
@@ -307,6 +335,7 @@ var json = [{
   "sourceLink":"#"
 },
 {
+  "id":"029",
   "characterClass":"Bryan_1",
   "characterName":"Bryan",
   "cast":"Bryan",
@@ -318,6 +347,7 @@ var json = [{
   "sourceLink":"#"
 },
 {
+  "id":"030",
   "characterClass":"Bryan_1",
   "characterName":"Bryan",
   "cast":"Bryan",
@@ -329,6 +359,7 @@ var json = [{
   "sourceLink":"#"
 },
 {
+  "id":"031",
   "characterClass":"Kevin_1",
   "characterName":"Kevin",
   "cast":"Kevin",
@@ -340,6 +371,7 @@ var json = [{
   "sourceLink":"#"
 },
 {
+  "id":"032",
   "characterClass":"Kevin_1",
   "characterName":"Kevin",
   "cast":"Kevin",
@@ -351,6 +383,7 @@ var json = [{
   "sourceLink":"#"
 },
 {
+  "id":"033",
   "characterClass":"Kevin_1",
   "characterName":"Kevin",
   "cast":"Kevin",
@@ -362,6 +395,7 @@ var json = [{
   "sourceLink":"#"
 },
 {
+  "id":"034",
   "characterClass":"sixtyFour",
   "characterName":"mega64",
   "cast":"Mega64",
@@ -371,5 +405,77 @@ var json = [{
   "quote":"Binders",
   "source":"source",
   "sourceLink":"#"
+},
+{
+  "id":"035",
+  "characterClass":"neo",
+  "characterName":"Neo",
+  "cast":"Eric",
+  "audio": [
+    "./audio/mrgoku.mp3"
+  ],
+  "quote":"Mr Goku, I've been looking-",
+  "source":"DRAGONBALL Z LIVE ACTION MOVIE TRAILER (OFFICIAL)",
+  "sourceLink":"https://www.youtube.com/watch?v=4Ojd5cNDekc"
+},
+{
+  "id":"036",
+  "characterClass":"jared",
+  "characterName":"Jared Fogle",
+  "cast":"Derrick",
+  "audio": [
+    "./audio/im_jared.mp3"
+  ],
+  "quote":"I'M JARED FOGLE!",
+  "source":"METAL GEAR SOLID V SPOOF",
+  "sourceLink":"https://www.youtube.com/watch?v=oORxO1LGNCg"
+},
+{
+  "id":"037",
+  "characterClass":"Derrick_2",
+  "characterName":"Derrick",
+  "cast":"Derrick",
+  "audio": [
+    "./audio/welcome.mp3"
+  ],
+  "quote":"Welcome to the Podcast, fuck you.",
+  "source":"Podcast 317",
+  "sourceLink":"https://www.youtube.com/watch?v=qG56bJo941M"
+},
+{
+  "id":"038",
+  "characterClass":"Garrett_1",
+  "characterName":"Garrett",
+  "cast":"Garrett",
+  "audio": [
+    "./audio/squozen_ghost.mp3"
+  ],
+  "quote":"Is this a milked ghost, or a squ- a squozen ghost?",
+  "source":"Podcast 323 - TruMoo Orange Cream",
+  "sourceLink":"https://www.youtube.com/watch?v=PpfqopHhQHQ"
+},
+{
+  "id":"039",
+  "characterClass":"writing-room",
+  "characterName":"Writer's Room Old Fucks",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/hand_out_sandwiches.mp3"
+  ],
+  "quote":"They're gonna hand out sandwiches!",
+  "source":"Podcast 409",
+  "sourceLink":"https://www.youtube.com/watch?v=ocepqZqqkVE"
+},
+{
+  "id":"040",
+  "characterClass":"writing-room",
+  "characterName":"Writer's Room Old Fucks",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/sandwiches_to_those_people.mp3"
+  ],
+  "quote":"AUUGGGHHH!! Hand out sandwiches to those people!",
+  "source":"Podcast 409",
+  "sourceLink":"https://www.youtube.com/watch?v=ocepqZqqkVE"
 }
 ];

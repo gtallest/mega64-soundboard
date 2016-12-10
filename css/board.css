@@ -171,7 +171,6 @@ h2{
   text-align: left;
   display:none;
   margin-top:40px;
-  padding-left:15px;
 }
 
 #board-list li {
@@ -408,6 +407,20 @@ transform: scale(0.98, 0.98);
 .Bryan_1 {
   background-image:url('../images/bryan2.png');
 }
+.neo {
+  background-image:url('../images/neo.png');
+}
+.jared {
+  background-image:url('../images/jared.png');
+}
+.writing-room {
+  background-image:url('../images/writing-room.png');
+}
+
+.writing-room + .tool-tip {
+  width:135px;
+  top:-20px;
+}
 
 
 /*Animations*/
@@ -437,5 +450,8 @@ transform: scale(0.98, 0.98);
   .speech-bubble {
     width: 120px !important;
     min-width: 0 !important;
+  }
+  #board-list {
+    padding-left:15px !important;
   }
 }
