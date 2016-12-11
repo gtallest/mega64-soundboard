@@ -30,7 +30,7 @@ var json = [{
   "audio": [
     "./audio/clayvoice.mp3"
   ],
-  "quote":"You have killed yourself by your own actions!",
+  "quote":"Mmhmm, you have killed yourself by your own actions!",
   "source":"Podcast 347: Joker Voice",
   "sourceLink":"https://www.youtube.com/watch?v=_bsR1T9RDGw"
 },
@@ -294,7 +294,7 @@ var json = [{
   "audio": [
 
   ],
-  "quote":"*insert Shawn quote here*",
+  "quote":"Posi Vibes!",
   "source":"source",
   "sourceLink":"#"
 },
@@ -330,8 +330,8 @@ var json = [{
   "audio": [
 
   ],
-  "quote":"*insert Bryan quote here*",
-  "source":"source",
+  "quote":"That game will fucking snake-n****r you so hard.",
+  "source":"Podcast 123 (Source Needed)",
   "sourceLink":"#"
 },
 {
@@ -364,11 +364,11 @@ var json = [{
   "characterName":"Kevin",
   "cast":"Kevin",
   "audio": [
-
+    "./audio/lots_of_quarters.mp3"
   ],
-  "quote":"*insert Kevin quote here*",
-  "source":"source",
-  "sourceLink":"#"
+  "quote":"Uhhhhhhh, bring lots of quarters!",
+  "source":"Podcast 253",
+  "sourceLink":"https://www.youtube.com/watch?v=O_hN9_GYljE"
 },
 {
   "id":"032",
@@ -438,7 +438,7 @@ var json = [{
   "audio": [
     "./audio/welcome.mp3"
   ],
-  "quote":"Welcome to the Podcast, fuck you.",
+  "quote":"Welcome to the Podcast- Fuck you.",
   "source":"Podcast 317",
   "sourceLink":"https://www.youtube.com/watch?v=qG56bJo941M"
 },
@@ -477,5 +477,113 @@ var json = [{
   "quote":"AUUGGGHHH!! Hand out sandwiches to those people!",
   "source":"Podcast 409",
   "sourceLink":"https://www.youtube.com/watch?v=ocepqZqqkVE"
+},
+{
+  "id":"041",
+  "characterClass":"writing-room",
+  "characterName":"Writer's Room Old Fucks",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/smile_so_big.mp3"
+  ],
+  "quote":"Kids gonna hand you a ham & cheese sandwich you gonna smile so big!",
+  "source":"Podcast 409",
+  "sourceLink":"https://www.youtube.com/watch?v=ocepqZqqkVE"
+},
+{
+  "id":"041",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/stfu.mp3"
+  ],
+  "quote":"Shut the fuck up.",
+  "source":"Podcast 409",
+  "sourceLink":"https://www.youtube.com/watch?v=ocepqZqqkVE"
+},
+{
+  "id":"042",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/cram_that_sandwich.mp3"
+  ],
+  "quote":"Cram that sandwich up your asshole.",
+  "source":"Podcast 409",
+  "sourceLink":"https://www.youtube.com/watch?v=ocepqZqqkVE"
+},
+{
+  "id":"043",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/to_your_coffin.mp3"
+  ],
+  "quote":"Just take the sandwich to your fucking coffin and seal yourself the fuck up.",
+  "source":"Podcast 409",
+  "sourceLink":"https://www.youtube.com/watch?v=ocepqZqqkVE"
+},
+{
+  "id":"044",
+  "characterClass":"christopherDemon",
+  "characterName":"Christopher Demon",
+  "cast":"Shawn",
+  "audio": [
+    "./audio/html.mp3"
+  ],
+  "quote":"HTML",
+  "source":"SYTEFREEK",
+  "sourceLink":"https://www.youtube.com/watch?v=SI-2IQx9Tm4"
+},
+{
+  "id":"045",
+  "characterClass":"christopherDemon",
+  "characterName":"Christopher Demon",
+  "cast":"Shawn",
+  "audio": [
+    "./audio/ports_open.mp3"
+  ],
+  "quote":"R ur ports open?",
+  "source":"SYTEFREEK",
+  "sourceLink":"https://www.youtube.com/watch?v=SI-2IQx9Tm4"
+},
+{
+  "id":"046",
+  "characterClass":"christopherDemon",
+  "characterName":"Christopher Demon",
+  "cast":"Shawn",
+  "audio": [
+    "./audio/javascript.mp3"
+  ],
+  "quote":"Javascript, let's go.",
+  "source":"SYTEFREEK",
+  "sourceLink":"https://www.youtube.com/watch?v=SI-2IQx9Tm4"
+},
+{
+  "id":"047",
+  "characterClass":"christopherDemon",
+  "characterName":"Christopher Demon",
+  "cast":"Shawn",
+  "audio": [
+    "./audio/lets_go_baby.mp3"
+  ],
+  "quote":"Let's go baby.",
+  "source":"SYTEFREEK",
+  "sourceLink":"https://www.youtube.com/watch?v=SI-2IQx9Tm4"
+},
+{
+  "id":"048",
+  "characterClass":"Derrick_1",
+  "characterName":"Bobby Brown",
+  "cast":"Derrick",
+  "audio": [
+    "./audio/in_my_hand.mp3"
+  ],
+  "quote":"How'd you put that in mah hand??",
+  "source":"SYTEFREEK",
+  "sourceLink":"https://www.youtube.com/watch?v=SI-2IQx9Tm4"
 }
 ];

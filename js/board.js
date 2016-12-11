@@ -6,6 +6,18 @@ $(document).ready(function(){
   var charArray = [];
   var quotesAndChars;
   var noAudio = '';
+  var displayCookieWarning = true;
+
+  //Cookie actions
+  //Check for Cookie Warning cookie
+  if(!document.cookie.indexOf('cookieWarning')){
+    displayCookieWarning = true;
+    setWarningCookie();
+  }
+  else {
+    displayCookieWarning = false;
+    console.log('warning cookie exists');
+  }
 
   //Sort alphabetically by cast
   json.sort(function(a,b) {return (a["characterName"] > b["characterName"]) ? 1 : ((b["characterName"] > a["characterName"]) ? -1 : 0);} );
@@ -20,7 +32,7 @@ $(document).ready(function(){
       noAudio = '';
     }
 
-    var portraitHTML = '<li>      <div class="portrait-image ' + json[j].characterClass + ' ' + json[j].cast + '">      </div>      <div class="tool-tip">' + json[j].characterName + '<div class="triangle">        </div>      </div>      <div class="speech-bubble"><span class="quote-text">"' + json[j].quote + '"</span><span class="quote-divider"></span><span class="quote-source">-<a href="' + json[j].sourceLink + '" target="_blank">' + json[j].source + '</a></span></div> ' + noAudio + '     <audio preload="none">      <source src="' + json[j].audio[0] + '" type="audio/mp3"/></audio>    </li>\n';
+    var portraitHTML = '<li>      <div class="portrait-image ' + json[j].characterClass + ' ' + json[j].cast + '" data-id=' + json[j].id + '>      </div>      <div class="tool-tip">' + json[j].characterName + '<div class="triangle">        </div>      </div>      <div class="speech-bubble"><span class="quote-text">"' + json[j].quote + '"</span><span class="quote-divider"></span><span class="quote-source">-<a href="' + json[j].sourceLink + '" target="_blank">' + json[j].source + '</a></span></div> ' + noAudio + '     <audio preload="none">      <source src="' + json[j].audio[0] + '" type="audio/mp3"/></audio>    </li>\n';
 
     boardHTML += portraitHTML;
 
@@ -56,12 +68,13 @@ $(document).ready(function(){
   });
 
 
-$('#filter-highlight').css('left', $('#search-glass').position().left + 2);
+$('#filter-highlight').css('left', $('#search-glass').position().left + 5);
 
 $('#filter-icon').on('click',function(){
   if(!$(this).hasClass('filter-active')){
     $(this).toggleClass('filter-active');
-    $('#search-glass').toggleClass('filter-active');
+    $('#search-glass').removeClass('filter-active');
+    $('#favorites-star').removeClass('filter-active');
   }
   $('#board-list').slideUp();
   $('.quote-filter').addClass('filter-inactive');
@@ -69,6 +82,7 @@ $('#filter-icon').on('click',function(){
   $('#search input').keyup();
   $('#filter-highlight').css('left', $('#filter-icon').position().left);
   $('#search').slideUp((function(){
+    $('#favorites').hide();
     $('#board-list li').hide();
     $('#filter-list').slideDown();
     $('#board-list').slideDown();
@@ -77,17 +91,37 @@ $('#filter-icon').on('click',function(){
 $('#search-glass').on('click',function(){
   if(!$(this).hasClass('filter-active')){
     $(this).toggleClass('filter-active');
-    $('#filter-icon').toggleClass('filter-active');
+    $('#filter-icon').removeClass('filter-active');
+    $('#favorites-star').removeClass('filter-active');
   }
   $('#board-list').slideUp();
   $('#filter-highlight').css('left', $('#search-glass').position().left + 1);
   $('#filter-list').slideUp(function(){
+    $('#favorites').hide();
     $('.quote-filter').removeClass('filter-inactive');
     $('#search').slideDown();
     $('#board-list li').show();
     $('#board-list').slideDown();
   });
 });
+$('#favorites-star').on('click',function(){
+  if(!$(this).hasClass('filter-active')){
+    $(this).toggleClass('filter-active');
+    $('#filter-icon').removeClass('filter-active');
+    $('#search-glass').removeClass('filter-active');
+  }
+  $('#board-list').slideUp();
+  $('#filter-highlight').css('left', $('#favorites-star').position().left + 1);
+  $('#filter-list').slideUp(function(){
+    $('.quote-filter').removeClass('filter-inactive');
+    $('#search').slideUp();
+    $('#search input').val('');
+    $('#search input').keyup();
+    $('#favorites').slideDown();
+    // $('#board-list li').show();
+    // $('#board-list').slideDown();
+  });
+})
 
 
 //Search Filter
@@ -141,12 +175,33 @@ var ac = new autoComplete({
     }
 });
 
+$('#close-timtams').on('click', function(){
+  $('#cookies').slideToggle();
+});
 
-
+//Adjust filter highlight for mobile
+//$('#filter-highlight').css('left', $('#search-glass').position().left + 2);
 
 var slide = function() {
   $('#board-list').slideDown();
   };
+
+var cookieUp = function() {
+  $('#cookies').slideToggle();
+};
+
+function setWarningCookie() {
+  var warningDate = new Date();
+  warningDate.setDate(warningDate.getDate() + 7);
+  document.cookie = "cookieWarning=true; expires=" + warningDate.toUTCString() + ";";
+  console.log('warning cookie set');
+}
+
   setTimeout(slide,500);
+
+  if(displayCookieWarning){
+    setTimeout(cookieUp,1000);
+  }
+
 
 });

@@ -39,3 +39,5 @@
     'this site uses cookies' notice, with timtams picture
   Hamburger menu
     filter-blur overlay
+  Git
+    keep up to date with master
