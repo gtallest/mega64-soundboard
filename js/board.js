@@ -10,7 +10,7 @@ $(document).ready(function(){
 
   //Cookie actions
   //Check for Cookie Warning cookie
-  if(!document.cookie.indexOf('cookieWarning')){
+  if(document.cookie.indexOf('cookieWarning') == -1){
     displayCookieWarning = true;
     setWarningCookie();
   }
@@ -197,6 +197,7 @@ function setWarningCookie() {
   console.log('warning cookie set');
 }
 
+$('#filter-highlight').css('left', $('#search-glass').position().left + 5);
   setTimeout(slide,500);
 
   if(displayCookieWarning){
