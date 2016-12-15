@@ -57,6 +57,7 @@ body {
   width:30px;
   height:30px;
   right:1px !important;
+  left:auto;
   bottom:-2px;
   z-index:-64;
   transition:0.5s;
