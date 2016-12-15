@@ -67,8 +67,7 @@ $(document).ready(function(){
     $('.' + this.innerHTML).parent().toggle();
   });
 
-$('#filter-highlight').css('left', $('#search-glass').position().left + 6);
-$('#filter-highlight').css('right', $('#search-glass').position().right);
+// $('#filter-highlight').css('left', $('#search-glass').position().left + 6);
 
 $('#filter-icon').on('click',function(){
   if(!$(this).hasClass('filter-active')){
@@ -80,6 +79,7 @@ $('#filter-icon').on('click',function(){
   $('.quote-filter').addClass('filter-inactive');
   $('#search input').val('');
   $('#search input').keyup();
+  $('#filter-highlight').css('left', $('#filter-icon').position().left);
   $('#filter-highlight').css('left', $('#filter-icon').position().left);
   $('#search').slideUp((function(){
     $('#favorites').hide();
@@ -111,6 +111,7 @@ $('#favorites-star').on('click',function(){
     $('#search-glass').removeClass('filter-active');
   }
   $('#board-list').slideUp();
+  $('#filter-highlight').css('left', $('#favorites-star').position().left + 2);
   $('#filter-highlight').css('left', $('#favorites-star').position().left + 2);
   $('#filter-list').slideUp(function(){
     $('.quote-filter').removeClass('filter-inactive');
