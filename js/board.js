@@ -68,7 +68,7 @@ $(document).ready(function(){
   });
 
 
- $('#filter-highlight').css('left', $('#search-glass').position().left + 6);
+ // $('#filter-highlight').css('left', $('#search-glass').position().left + 6);
 
 $('#filter-icon').on('click',function(){
   if(!$(this).hasClass('filter-active')){
