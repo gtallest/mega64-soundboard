@@ -287,6 +287,18 @@ var json = [{
   "sourceLink":"https://www.youtube.com/watch?v=tRrvriAlceE"
 },
 {
+  "id":"051",
+  "characterClass":"Garrett_1",
+  "characterName":"Garrett",
+  "cast":"Garrett",
+  "audio": [
+    "./audio/not_gonna_touch_that.mp3"
+  ],
+  "quote":"I'm not gonna touch that.",
+  "source":"Podcast 268",
+  "sourceLink":"https://www.youtube.com/watch?v=ABReXeyJSoM"
+},
+{
   "id":"025",
   "characterClass":"Shawn_1",
   "characterName":"Shawn",
@@ -306,9 +318,9 @@ var json = [{
   "audio": [
 
   ],
-  "quote":"*insert Shawn quote here*",
-  "source":"source",
-  "sourceLink":"#"
+  "quote":"I don't want to see your dick again Garrett.",
+  "source":"Podcast 122",
+  "sourceLink":"http://mega64archives.github.io/#/EPOD/122"
 },
 {
   "id":"027",
@@ -316,11 +328,11 @@ var json = [{
   "characterName":"Shawn",
   "cast":"Shawn",
   "audio": [
-
+    "./audio/its_done.mp3"
   ],
-  "quote":"*insert Shawn quote here*",
-  "source":"source",
-  "sourceLink":"#"
+  "quote":"It's fuckin' done!",
+  "source":"Podcast 19",
+  "sourceLink":"https://www.youtube.com/watch?v=wbleu47w94Y"
 },
 {
   "id":"028",
@@ -328,23 +340,11 @@ var json = [{
   "characterName":"Bryan",
   "cast":"Bryan",
   "audio": [
-
+    "./audio/snake.mp3"
   ],
-  "quote":"That game will fucking snake-n****r you so hard.",
-  "source":"Podcast 123 (Source Needed)",
-  "sourceLink":"#"
-},
-{
-  "id":"029",
-  "characterClass":"Bryan_1",
-  "characterName":"Bryan",
-  "cast":"Bryan",
-  "audio": [
-
-  ],
-  "quote":"*insert Bryan quote here*",
-  "source":"source",
-  "sourceLink":"#"
+  "quote":"That game will fucking snake-n****r you so fucking hard.",
+  "source":"Podcast 123",
+  "sourceLink":"http://mega64archives.github.io/#/EPOD/123"
 },
 {
   "id":"030",
@@ -352,11 +352,11 @@ var json = [{
   "characterName":"Bryan",
   "cast":"Bryan",
   "audio": [
-
+    './audio/offensive.mp3'
   ],
-  "quote":"*insert Bryan quote here*",
-  "source":"source",
-  "sourceLink":"#"
+  "quote":"How is that offensive?",
+  "source":"Podcast 268",
+  "sourceLink":"https://www.youtube.com/watch?v=ABReXeyJSoM"
 },
 {
   "id":"031",
@@ -558,7 +558,7 @@ var json = [{
   "audio": [
     "./audio/javascript.mp3"
   ],
-  "quote":"Javascript, let's go.",
+  "quote":"JavaScript, let's go.",
   "source":"SYTEFREEK",
   "sourceLink":"https://www.youtube.com/watch?v=SI-2IQx9Tm4"
 },
@@ -576,7 +576,7 @@ var json = [{
 },
 {
   "id":"048",
-  "characterClass":"Derrick_1",
+  "characterClass":"bobbyBrown",
   "characterName":"Bobby Brown",
   "cast":"Derrick",
   "audio": [
@@ -585,5 +585,65 @@ var json = [{
   "quote":"How'd you put that in mah hand??",
   "source":"SYTEFREEK",
   "sourceLink":"https://www.youtube.com/watch?v=SI-2IQx9Tm4"
+},
+{
+  "id":"050",
+  "characterClass":"Bryan_1",
+  "characterName":"Bryan",
+  "cast":"Bryan",
+  "audio": [
+    './audio/neither_would_a_kid.mp3'
+  ],
+  "quote":"Yeah, neither would a kid with Down's Syndrome.",
+  "source":"Podcast 268",
+  "sourceLink":"https://www.youtube.com/watch?v=ABReXeyJSoM"
+},
+{
+  "id":"049",
+  "characterClass":"Bryan_1",
+  "characterName":"Bryan",
+  "cast":"Bryan",
+  "audio": [
+    './audio/bryan_laugh.mp3'
+  ],
+  "quote":"*laughing and clapping*",
+  "source":"Podcast 268",
+  "sourceLink":"https://www.youtube.com/watch?v=ABReXeyJSoM"
+},
+{
+  "id":"029",
+  "characterClass":"Bryan_1",
+  "characterName":"Bryan",
+  "cast":"Bryan",
+  "audio": [
+    "./audio/jOBS.mp3"
+  ],
+  "quote":"jOBS sounds like what, like, a kid with Down's Syndrome would say if he was trying to say handjobs.",
+  "source":"Podcast 268",
+  "sourceLink":"https://www.youtube.com/watch?v=ABReXeyJSoM"
+},
+{
+  "id":"052",
+  "characterClass":"culdesac",
+  "characterName":"Cul-de-Sac",
+  "cast":"Garrett",
+  "audio": [
+    "./audio/mmo-rpg.mp3"
+  ],
+  "quote":"I got iCoke, iCrack, iDope, iSmack, iDust, iPills, iThrills, iKills, iLSD, DMT, THC, PCP, MMO, RPG.",
+  "source":"Mega64: iDosing",
+  "sourceLink":"https://www.youtube.com/watch?v=Wwk5kJLpreE"
+},
+{
+  "id":"053",
+  "characterClass":"culdesac",
+  "characterName":"Cul-de-Sac",
+  "cast":"Garrett",
+  "audio": [
+    "./audio/cul-de-sac.mp3"
+  ],
+  "quote":"Don't worry about him, my name's Cul-de-Sac.",
+  "source":"Mega64: iDosing",
+  "sourceLink":"https://www.youtube.com/watch?v=Wwk5kJLpreE"
 }
 ];

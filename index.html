@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
   <title>MEGA64 SOUNDBOARD</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description" content="THE ULTIMATE WEBPAGE FOR INTERNET SOLDIERZ. LISTEN TO YOUR FAVORITE MEGA64 QUOTES ON REPEAT UNTIL YOUR BRAIN EXPLODES.">
   <meta name="robots" content="noindex">
   <link rel="stylesheet" type="text/css" href="css/board.css" />
+  <link rel="stylesheet" type="text/css" href="css/press-start-k.css" />
   <link rel="stylesheet" type="text/css" href="css/auto-complete.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
@@ -21,8 +24,9 @@
         <a href="https://www.facebook.com/Mega64/" target="_blank"><li class="fa fa-facebook-official"></li></a>
         <a href="https://twitter.com/mega64" target="_blank"><li class="fa fa-twitter"></li></a>
         <a href="https://www.youtube.com/user/RoccoB64" target="_blank"><li class="fa fa-youtube-square"></li></a>
+        <a href="https://www.patreon.com/mega64" target="_blank"><li class="patreon-icon"><img src="images/patreon_logo.png" /></li></a>
       </ul>
-      <h1><a href="http://mega64.com/" target="_blank"><img src="./images/m64-logo.png" /></a><span >SOUNDBOARD</span></h1>
+      <h1><a href="http://mega64.com/" target="_blank">MEGA64</a><span> SOUND<span id="title-board">BOARD</span></span></h1>
       <ul id="search-filter">
         <li id="favorites-star"><i class="fa fa-star"></i></li>
         <li id="filter-icon"><i class="fa fa-filter"></i></li>
@@ -31,6 +35,17 @@
 
         </div>
       </ul>
+    </div>
+    <div id="mobileInstructions">
+      <p>
+        <span class="yellow-highlight">Mobile:</span> Press portrait once to display quote, again to play sound.
+      </p>
+      <div id="gotIt">
+        Got it!
+      </div>
+      <div class="small-divider">
+
+      </div>
     </div>
     <div id="filters">
       <div id="search">
@@ -60,28 +75,28 @@
 
     <div id="footer">
       <p>
-        Inspired by <a href="http://therapboard.com/" target="_blank">The Rap Board</a> by <a href="http://work.lpriel.com/" target="_blank">LP Riel</a>. Created by <a href="https://twitter.com/marcdwong" target="_blank">Marc D. Wong</a><br />
+        Inspired by <a class="yellow-highlight" href="http://therapboard.com/" target="_blank">The Rap Board</a> by <a  class="yellow-highlight" href="http://work.lpriel.com/" target="_blank">LP Riel</a>. Created by <a  class="yellow-highlight" href="https://twitter.com/marcdwong" target="_blank">Marc D. Wong</a><br />
         ---
       </p>
       <p>
         with a little help from my friends: <br/>
-        <a href="https://github.com/Pixabay/JavaScript-autoComplete" target="_blank">autoComplete</a>, <a href="https://twitter.com/Mega64_Quotes">Mega64PodcastQuotes</a><br />
+        <a class="yellow-highlight" href="https://github.com/Pixabay/JavaScript-autoComplete" target="_blank">autoComplete</a>, <a class="yellow-highlight" href="https://twitter.com/Mega64_Quotes" target="_blank">Mega64PodcastQuotes</a>, <a class="yellow-highlight" href="https://www.reddit.com/r/mega64/" target="_blank">/r/mega64</a><br />
         ---
       </p>
       <p>
         Don't see your favorite quote?<br/>
-        Send your comments, suggestions, and/or insults to: <a href="mailto:mega64soundboard@gmail.com">mega64soundboard@gmail.com</a><br/>
-        Or tweet at <a href="https://twitter.com/mega64board" target="_blank">MEGA64 SOUNDBOARD</a>
+        Send comments, suggestions, bugs, and/or insults to: <a class="yellow-highlight"  href="mailto:mega64soundboard@gmail.com">mega64soundboard@gmail.com</a><br/>
+        Or tweet <a class="yellow-highlight" href="https://twitter.com/mega64board" target="_blank">@MEGA64BOARD</a>
       </p>
     </div>
   </div>
 
   <div id="cookies">
-    <img src="./images/cookie.png" alt="TimTam CookieGate WHO ATE DERRICK'S TIMTAMS?"/>
+    <img id="timtam1" src="./images/cookie.png" alt="TimTam CookieGate WHO ATE DERRICK'S TIMTAMS?"/>
     <p>
       This site uses cookies to improve your experience. No cookie is above the law.
     </p>
-    <img src="./images/cookie.png" alt="TimTam CookieGate WHO ATE DERRICK'S TIMTAMS?"/>
+    <img id="timtam2" src="./images/cookie.png" alt="TimTam CookieGate WHO ATE DERRICK'S TIMTAMS?"/>
     <div id="close-timtams">
       <i class="fa fa-times"></i>
     </div>
@@ -90,6 +105,18 @@
 
   <script src="./js/board.js"></script>
   <script src="./js/auto-complete.min.js"></script>
+
+  <!--Google Analytics Tracking Code-->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-89034305-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
 
 </body>
 

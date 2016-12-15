@@ -12,12 +12,12 @@ $(document).ready(function(){
   //Check for Cookie Warning cookie
   if(document.cookie.indexOf('cookieWarning') == -1){
     displayCookieWarning = true;
-    setWarningCookie();
   }
   else {
     displayCookieWarning = false;
     console.log('warning cookie exists');
   }
+
 
   //Sort alphabetically by cast
   json.sort(function(a,b) {return (a["characterName"] > b["characterName"]) ? 1 : ((b["characterName"] > a["characterName"]) ? -1 : 0);} );
@@ -68,7 +68,7 @@ $(document).ready(function(){
   });
 
 
-$('#filter-highlight').css('left', $('#search-glass').position().left + 5);
+$('#filter-highlight').css('left', $('#search-glass').position().left + 6);
 
 $('#filter-icon').on('click',function(){
   if(!$(this).hasClass('filter-active')){
@@ -111,7 +111,7 @@ $('#favorites-star').on('click',function(){
     $('#search-glass').removeClass('filter-active');
   }
   $('#board-list').slideUp();
-  $('#filter-highlight').css('left', $('#favorites-star').position().left + 1);
+  $('#filter-highlight').css('left', $('#favorites-star').position().left + 2);
   $('#filter-list').slideUp(function(){
     $('.quote-filter').removeClass('filter-inactive');
     $('#search').slideUp();
@@ -127,10 +127,13 @@ $('#favorites-star').on('click',function(){
 //Search Filter
 $quotes = $('#board-list li');
 $('#search input').keyup(function(){
-  var val = '^(?=.*\\b' + $.trim($(this).val()).split(/\.*:*-*,*\s+/).join('\\b)(?=.*\\b') + ').*$',
-        reg = RegExp(val, 'i'),
-        text;
-console.log('val: ' + val);
+  var val = '^(?=.*\\b' + $.trim($(this).val().replace(/\*/g,'\\*')).split(/\.*:*-*,*!*\&*\'*\s+/).join('\\b)(?=.*\\b') + ').*$';
+  val = val.replace(/\\b\\\*/g, '\\B\\*');
+  val = val.replace(/\\\*\\b/g, '\\*\\B');
+  var reg = RegExp(val.replace(/\\b\\\*/g, '\\B\\*'), 'i');
+  var text;
+
+console.log('val: ' + val.replace(/\\b\\\*/g, '\\B\\*'));
     $quotes.show().filter(function() {
         text = $(this).text().replace(/\s+/g, ' ');
         return !reg.test(text);
@@ -177,6 +180,7 @@ var ac = new autoComplete({
 
 $('#close-timtams').on('click', function(){
   $('#cookies').slideToggle();
+  setWarningCookie();
 });
 
 //Adjust filter highlight for mobile
@@ -197,7 +201,11 @@ function setWarningCookie() {
   console.log('warning cookie set');
 }
 
-$('#filter-highlight').css('left', $('#search-glass').position().left + 5);
+$('#gotIt').on('click', function() {
+  $('#mobileInstructions').slideUp();
+})
+
+
   setTimeout(slide,500);
 
   if(displayCookieWarning){

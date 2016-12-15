@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'PressStartKRegular';
+    src: url('../font/press-start-k.eot');
+    src: url('../font/press-start-k.eot') format('embedded-opentype'),
+         url('../font/press-start-k.woff') format('woff'),
+         url('../font/press-start-k.ttf') format('truetype'),
+         url('../font/press-start-k.svg#PressStartKRegular') format('svg');
+}
