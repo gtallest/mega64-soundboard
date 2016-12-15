@@ -67,8 +67,8 @@ $(document).ready(function(){
     $('.' + this.innerHTML).parent().toggle();
   });
 
-
- // $('#filter-highlight').css('left', $('#search-glass').position().left + 6);
+$('#filter-highlight').css('left', $('#search-glass').position().left + 6);
+$('#filter-highlight').css('right', $('#search-glass').position().right);
 
 $('#filter-icon').on('click',function(){
   if(!$(this).hasClass('filter-active')){
