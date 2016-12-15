@@ -68,7 +68,7 @@ $(document).ready(function(){
   });
 
 
-$('#filter-highlight').css('left', $('#search-glass').position().left + 6);
+// $('#filter-highlight').css('left', $('#search-glass').position().left + 6);
 
 $('#filter-icon').on('click',function(){
   if(!$(this).hasClass('filter-active')){
@@ -186,9 +186,8 @@ $('#close-timtams').on('click', function(){
 //Adjust filter highlight for mobile
 //$('#filter-highlight').css('left', $('#search-glass').position().left + 2);
 
-var slide = function(callback) {
+var slide = function() {
   $('#board-list').slideDown();
-  callback();
   };
 
 var alignHighlight = function() {
@@ -229,7 +228,7 @@ $('#backToTop').on('click',function(){
 });
 
 
-  setTimeout(slide(alignHighlight),500);
+  setTimeout(slide(),500);
 
   if(displayCookieWarning){
     setTimeout(cookieUp,1000);
