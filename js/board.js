@@ -186,13 +186,22 @@ $('#close-timtams').on('click', function(){
 //Adjust filter highlight for mobile
 //$('#filter-highlight').css('left', $('#search-glass').position().left + 2);
 
-var slide = function() {
+var slide = function(callback) {
   $('#board-list').slideDown();
+  callback();
   };
+
+var alignHighlight = function() {
+  $('#filter-highlight').css('left', $('#search-glass').position().left + 6);
+};
 
 var cookieUp = function() {
   $('#cookies').slideToggle();
 };
+
+var backToTop = function() {
+  $("html, body").animate({ scrollTop: 0}, 500);
+}
 
 function setWarningCookie() {
   var warningDate = new Date();
@@ -203,10 +212,24 @@ function setWarningCookie() {
 
 $('#gotIt').on('click', function() {
   $('#mobileInstructions').slideUp();
-})
+});
+
+//Scroll Back to Top Logic
+
+$(window).scroll(function(){
+        if ($(this).scrollTop() > 50) {
+            $('#backToTop').fadeIn('slow');
+        } else {
+            $('#backToTop').fadeOut('slow');
+        }
+    });
+
+$('#backToTop').on('click',function(){
+  backToTop();
+});
 
 
-  setTimeout(slide,500);
+  setTimeout(slide(alignHighlight),500);
 
   if(displayCookieWarning){
     setTimeout(cookieUp,1000);

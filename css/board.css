@@ -158,6 +158,10 @@ h2{
 #mobileInstructions p {
   font-size:18px;
 }
+#mobileInstructions pre{
+  white-space:pre-wrap;
+  font-size:16px;
+}
 .yellow-highlight {
   background:yellow;
   color:black;
@@ -451,6 +455,23 @@ transform: scale(0.98, 0.98);
   border-bottom-color: #63590c;
 }
 
+#backToTop {
+  width:25px;
+  height:25px;
+  background:yellow;
+  text-align:center;
+  padding:10px;
+  border-radius:10px;
+  color:black;
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  border-right:2px solid #333;
+  border-bottom:2px solid #333;
+  cursor:pointer;
+  display:none;
+}
+
 /*Auto Complete Styling*/
 .autocomplete-suggestions {
   font-family: PressStartKRegular, sans-serif;
@@ -622,6 +643,9 @@ transform: scale(0.98, 0.98);
 @media only screen and (max-width:500px){
   #title-board {
     display:block;
+  }
+  #footer p {
+    line-height:2 !important;
   }
 }
 
