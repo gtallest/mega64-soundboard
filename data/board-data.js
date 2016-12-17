@@ -124,7 +124,7 @@ var json = [{
   "characterName":"Derrick",
   "cast":"Derrick",
   "audio": [
-
+    "./audio/slam_dunk2.mp3"
   ],
   "quote":"Slam dunk!",
   "source":"Podcast 355",
@@ -160,9 +160,9 @@ var json = [{
   "characterName":"Garrett",
   "cast":"Garrett",
   "audio": [
-
+    "./audio/contravorshul.mp3"
   ],
-  "quote":"Keep it controvoisial.",
+  "quote":"Keep it contravorshul.",
   "source":"Podcast 303",
   "sourceLink":""
 },
@@ -172,21 +172,21 @@ var json = [{
   "characterName":"Rocco",
   "cast":"Rocco",
   "audio": [
-
+    "./audio/revenge_of_the_fifth.mp3"
   ],
-  "quote":"Snapchat",
-  "source":"Podcast 409",
-  "sourceLink":""
+  "quote":"Hey, guys? Shut up please, I'm waiting for Revenge of the Fifth!",
+  "source":"Podcast 303",
+  "sourceLink":"https://www.youtube.com/watch?v=zHVp-KhybNM"
 },
 {
   "id":"016",
-  "characterClass":"Rocco_1",
-  "characterName":"Rocco",
-  "cast":"Rocco",
+  "characterClass":"sixtyFour",
+  "characterName":"mega64",
+  "cast":"Mega64",
   "audio": [
-
+    "./audio/ron_paul.mp3"
   ],
-  "quote":"Ron Paul, Ron Paul...",
+  "quote":"<span style='background:red;font-size:24px;color:white;'>WARNING:</span> CLICKING THIS HAS EXTREME CONSEQUENCES.<br />CLICK AT YOUR OWN RISK.<br />SHOULD YOU REGRET YOUR DECISION, REFRESH THE PAGE<br /><img class='ron-paul' src='./images/ron-paul.png'/>",
   "source":"Podcast 236: Binders",
   "sourceLink":"https://www.youtube.com/watch?v=R7ytxS_Mu_E"
 },
@@ -196,7 +196,7 @@ var json = [{
   "characterName":"Rocco",
   "cast":"Rocco",
   "audio": [
-
+    "./audio/binder_style.mp3"
   ],
   "quote":"Oppan Binder Style!",
   "source":"Podcast 236: Binders",
@@ -402,7 +402,7 @@ var json = [{
   "audio": [
 
   ],
-  "quote":"Binders",
+  "quote":"*insert Mega64 group quote here",
   "source":"source",
   "sourceLink":"#"
 },
@@ -645,5 +645,161 @@ var json = [{
   "quote":"Don't worry about him, my name's Cul-de-Sac.",
   "source":"Mega64: iDosing",
   "sourceLink":"https://www.youtube.com/watch?v=Wwk5kJLpreE"
+},
+{
+  "id":"054",
+  "characterClass":"timCuck",
+  "characterName":"Tim Cuck",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/blast_to_watch.mp3"
+  ],
+  "quote":"And I think it's just gonna be a blast to watch, I think you're really gonna to enjoy it.",
+  "source":"Podcast 342 - 2015 Keynote",
+  "sourceLink":"https://www.youtube.com/watch?v=x-b72bC1M3E"
+},
+{
+  "id":"055",
+  "characterClass":"timCuck",
+  "characterName":"Tim Cuck",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/bet.mp3"
+  ],
+  "quote":"But you can fuckin' bet.",
+  "source":"Podcast 342 - 2015 Keynote",
+  "sourceLink":"https://www.youtube.com/watch?v=x-b72bC1M3E"
+},
+{
+  "id":"056",
+  "characterClass":"timCuck",
+  "characterName":"Tim Cuck",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/moms_credit_card.mp3"
+  ],
+  "quote":"Get your mom's credit card ready.",
+  "source":"Podcast 342 - 2015 Keynote",
+  "sourceLink":"https://www.youtube.com/watch?v=x-b72bC1M3E"
+},
+{
+  "id":"057",
+  "characterClass":"timCuck",
+  "characterName":"Tim Cuck",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/doing_the_keynote.mp3"
+  ],
+  "quote":"I'm doing the fuckin' keynote.",
+  "source":"Podcast 342 - 2015 Keynote",
+  "sourceLink":"https://www.youtube.com/watch?v=x-b72bC1M3E"
+},
+{
+  "id":"058",
+  "characterClass":"timCuck",
+  "characterName":"Tim Cuck",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/keynote_laugh.mp3"
+  ],
+  "quote":"*laugh*",
+  "source":"Podcast 342 - 2015 Keynote",
+  "sourceLink":"https://www.youtube.com/watch?v=x-b72bC1M3E"
+},
+{
+  "id":"059",
+  "characterClass":"timCuck",
+  "characterName":"Tim Cuck",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/temku.mp3"
+  ],
+  "quote":"With, uh, Chinese artist, Temku.",
+  "source":"Podcast 342 - 2015 Keynote",
+  "sourceLink":"https://www.youtube.com/watch?v=x-b72bC1M3E"
+},
+{
+  "id":"060",
+  "characterClass":"Derrick_2",
+  "characterName":"Derrick",
+  "cast":"Derrick",
+  "audio": [
+    "./audio/derrick_laugh.mp3"
+  ],
+  "quote":"*laugh*",
+  "source":"Podcast 342 - 2015 Keynote",
+  "sourceLink":"https://www.youtube.com/watch?v=x-b72bC1M3E"
+},
+{
+  "id":"061",
+  "characterClass":"timCuck",
+  "characterName":"Tim Cuck",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/dob.mp3"
+  ],
+  "quote":"Norwegian artist, Dob.",
+  "source":"Podcast 342 - 2015 Keynote",
+  "sourceLink":"https://www.youtube.com/watch?v=x-b72bC1M3E"
+},
+{
+  "id":"062",
+  "characterClass":"timCuck",
+  "characterName":"Tim Cuck",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/no.mp3"
+  ],
+  "quote":"No.",
+  "source":"Podcast 342 - 2015 Keynote",
+  "sourceLink":"https://www.youtube.com/watch?v=x-b72bC1M3E"
+},
+{
+  "id":"063",
+  "characterClass":"timCuck",
+  "characterName":"Tim Cuck",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/keynote_stfu.mp3"
+  ],
+  "quote":"Shut the fuck up.",
+  "source":"Podcast 342 - 2015 Keynote",
+  "sourceLink":"https://www.youtube.com/watch?v=x-b72bC1M3E"
+},
+{
+  "id":"064",
+  "characterClass":"Shawn_1",
+  "characterName":"Shawn",
+  "cast":"Shawn",
+  "audio": [
+    "./audio/kind_of_an_asshole.mp3"
+  ],
+  "quote":"Keynote Rocco is kind of an asshole.",
+  "source":"Podcast 342 - 2015 Keynote",
+  "sourceLink":"https://www.youtube.com/watch?v=x-b72bC1M3E"
+},
+{
+  "id":"065",
+  "characterClass":"Shawn_1",
+  "characterName":"Shawn",
+  "cast":"Shawn",
+  "audio": [
+    "./audio/wtf_was_that.mp3"
+  ],
+  "quote":"What the fuck was that?",
+  "source":"Podcast 342 - 2015 Keynote",
+  "sourceLink":"https://www.youtube.com/watch?v=x-b72bC1M3E"
+},
+{
+  "id":"066",
+  "characterClass":"Shawn_1",
+  "characterName":"Shawn",
+  "cast":"Shawn",
+  "audio": [
+    "./audio/shout_out_to_money.mp3"
+  ],
+  "quote":"Shout out, um... to money.",
+  "source":"REACTION TO THE FINE BROS \"REACT\"?!?! (SPECIAL ANNOUNCEMENT)",
+  "sourceLink":"https://www.youtube.com/watch?v=CRYnOPJiTaA"
 }
 ];

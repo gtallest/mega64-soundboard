@@ -266,7 +266,7 @@ h2{
 .portrait-image:hover + .tool-tip + .speech-bubble,
 .speech-bubble:hover {
   display:block !important;
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 
@@ -473,6 +473,27 @@ transform: scale(0.98, 0.98);
   display:none;
 }
 
+.ron-paul {
+  width:150px;
+  height:128px;
+  margin-top:0px;
+  margin-left:0px;
+  transition:5s;
+}
+.super-ron {
+  width:1500px;
+  height:1500px;
+  margin-top:-840px;
+  margin-left:-640px;
+  -webkit-filter:grayscale(1);
+  transition:35s;
+}
+.trippy {
+  animation:puls 0.5s linear infinite;
+  transition:15s;
+  transform:rotate(720deg);
+}
+
 /*Auto Complete Styling*/
 .autocomplete-suggestions {
   font-family: PressStartKRegular, sans-serif;
@@ -559,6 +580,9 @@ transform: scale(0.98, 0.98);
 }
 .culdesac {
   background-image:url('../images/culdesac.png');
+}
+.timCuck {
+  background-image:url('../images/tim-cuck.png');
 }
 
 /*Animations*/
