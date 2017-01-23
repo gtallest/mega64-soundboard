@@ -801,5 +801,65 @@ var json = [{
   "quote":"Shout out, um... to money.",
   "source":"REACTION TO THE FINE BROS \"REACT\"?!?! (SPECIAL ANNOUNCEMENT)",
   "sourceLink":"https://www.youtube.com/watch?v=CRYnOPJiTaA"
-}
+},
+{
+  "id":"067",
+  "characterClass":"Garrett_1",
+  "characterName":"Garrett",
+  "cast":"Garrett",
+  "audio": [
+    "./audio/jefferson_tull.mp3"
+  ],
+  "quote":"I don't know, I didn't ask, uh, Jefferson... Tull.",
+  "source":"Podcast 422 Aftershow",
+  "sourceLink":"https://www.youtube.com/watch?v=3N0eo8apKzY"
+},
+{
+  "id":"068",
+  "characterClass":"Kevin_1",
+  "characterName":"Kevin",
+  "cast":"Kevin",
+  "audio": [
+    "./audio/flute_tooter.mp3"
+  ],
+  "quote":"I think it's flute tooter.",
+  "source":"Podcast 422 Aftershow",
+  "sourceLink":"https://www.youtube.com/watch?v=3N0eo8apKzY"
+},
+{
+  "id":"069",
+  "characterClass":"Derrick_2",
+  "characterName":"Derrick",
+  "cast":"Derrick",
+  "audio": [
+    "./audio/no_wanna_shut_up.mp3"
+  ],
+  "quote":"No, you wanna shut up?",
+  "source":"Podcast 422 Aftershow",
+  "sourceLink":"https://www.youtube.com/watch?v=3N0eo8apKzY"
+},
+{
+  "id":"070",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/wiii_spla2n.mp3"
+  ],
+  "quote":"Wiii! We've got Spla2n!",
+  "source":"Podcast 422 Aftershow",
+  "sourceLink":"https://www.youtube.com/watch?v=3N0eo8apKzY"
+},
+{
+  "id":"071",
+  "characterClass":"Garrett_1",
+  "characterName":"Garrett",
+  "cast":"Garrett",
+  "audio": [
+    "./audio/piss_shit_dugout.mp3"
+  ],
+  "quote":"Like a piss-shit dugout.",
+  "source":"Podcast 422 Aftershow",
+  "sourceLink":"https://www.youtube.com/watch?v=3N0eo8apKzY"
+},
 ];

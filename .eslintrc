@@ -1,0 +1,12 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true
+    },
+  "extends": "eslint:recommended",
+  "rules": {
+    "comma-dangle": [0, "only-multiline"],
+    "no-console": 0,
+    "no-unused-vars": 0
+    }
+}

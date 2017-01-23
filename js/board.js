@@ -55,20 +55,27 @@ $(document).ready(function(){
 
 
   /* Board Logic */
+
+
+  // Ron Paul
+  $('div[data-id=016]').on('click',function(e){
+    if(window.confirm("You've been warned. Do you really want to continue?")){
+      $('body').addClass('trippy');
+      $('.portrait-image').css('background-image','url("./images/ron-paul.png")');
+      $('div[data-id=016] + .tool-tip + .speech-bubble').css({'display':'block','opacity':'1'});
+      $('.ron-paul').toggleClass('super-ron');
+      $('.super-ron').css('transition','35s');
+      setTimeout(function(){ronReturn();}, 35000);
+    } else {
+      e.stopPropagation();
+      e.stopImmediatePropagation();
+    }
+  });
+
   // Play audio on click
   $('.portrait-image').on('click',function(){
     var audio = this.parentNode.getElementsByTagName('audio')[0];
     audio.play();
-  });
-
-  // Ron Paul
-  $('div[data-id=016]').on('click',function(){
-    $('body').addClass('trippy');
-    $('.portrait-image').css('background-image','url("./images/ron-paul.png")');
-    $('div[data-id=016] + .tool-tip + .speech-bubble').css({'display':'block','opacity':'1'});
-    $('.ron-paul').toggleClass('super-ron');
-    $('.super-ron').css('transition','35s');
-    setTimeout(function(){ronReturn();}, 35000);
   });
 
   /* Search View */
