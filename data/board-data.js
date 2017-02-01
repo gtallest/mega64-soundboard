@@ -382,30 +382,30 @@ var json = [{
   "source":"source",
   "sourceLink":"#"
 },
-{
-  "id":"033",
-  "characterClass":"Kevin_1",
-  "characterName":"Kevin",
-  "cast":"Kevin",
-  "audio": [
-
-  ],
-  "quote":"*insert Kevin quote here*",
-  "source":"source",
-  "sourceLink":"#"
-},
-{
-  "id":"034",
-  "characterClass":"sixtyFour",
-  "characterName":"mega64",
-  "cast":"Mega64",
-  "audio": [
-
-  ],
-  "quote":"*insert Mega64 group quote here",
-  "source":"source",
-  "sourceLink":"#"
-},
+// {
+//   "id":"033",
+//   "characterClass":"Kevin_1",
+//   "characterName":"Kevin",
+//   "cast":"Kevin",
+//   "audio": [
+//
+//   ],
+//   "quote":"*insert Kevin quote here*",
+//   "source":"source",
+//   "sourceLink":"#"
+// },
+// {
+//   "id":"034",
+//   "characterClass":"sixtyFour",
+//   "characterName":"mega64",
+//   "cast":"Mega64",
+//   "audio": [
+//
+//   ],
+//   "quote":"*insert Mega64 group quote here",
+//   "source":"source",
+//   "sourceLink":"#"
+// },
 {
   "id":"035",
   "characterClass":"neo",
@@ -861,5 +861,137 @@ var json = [{
   "quote":"Like a piss-shit dugout.",
   "source":"Podcast 422 Aftershow",
   "sourceLink":"https://www.youtube.com/watch?v=3N0eo8apKzY"
+},
+{
+  "id":"072",
+  "characterClass":"Garrett_1",
+  "characterName":"Garrett",
+  "cast":"Garrett",
+  "audio": [
+    "./audio/pontius_pilate.mp3"
+  ],
+  "quote":"Pontius Pilate, ya dip.",
+  "source":"Podcast 423",
+  "sourceLink":"https://www.youtube.com/watch?v=iU7opLpR3W8"
+},
+{
+  "id":"073",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/black_mirror.mp3"
+  ],
+  "quote":"What, what if.. the in and, if the election.. what if, is, all and inauguration is i- eh- h- like an episode of Black Mirror?",
+  "source":"Podcast 423",
+  "sourceLink":"https://www.youtube.com/watch?v=iU7opLpR3W8"
+},
+{
+  "id":"074",
+  "characterClass":"Shawn_1",
+  "characterName":"Shawn",
+  "cast":"Shawn",
+  "audio": [
+    "./audio/hello.mp3"
+  ],
+  "quote":"Hellooo!",
+  "source":"Podcast 424",
+  "sourceLink":"https://www.youtube.com/watch?v=gRPSFMCvOx4"
+},
+{
+  "id":"075",
+  "characterClass":"Shawn_1",
+  "characterName":"Shawn",
+  "cast":"Shawn",
+  "audio": [
+    "./audio/shawn_stfu.mp3"
+  ],
+  "quote":"Shut the fuck up!",
+  "source":"Podcast 424",
+  "sourceLink":"https://www.youtube.com/watch?v=gRPSFMCvOx4"
+},
+{
+  "id":"076",
+  "characterClass":"Shawn_1",
+  "characterName":"Shawn",
+  "cast":"Shawn",
+  "audio": [
+    "./audio/they_respect_me.mp3"
+  ],
+  "quote":"They respect me.",
+  "source":"Podcast 424",
+  "sourceLink":"https://www.youtube.com/watch?v=gRPSFMCvOx4"
+},
+{
+  "id":"077",
+  "characterClass":"Derrick_2",
+  "characterName":"Derrick",
+  "cast":"Derrick",
+  "audio": [
+    "./audio/unsub_kid.mp3"
+  ],
+  "quote":"Unsub that kid!",
+  "source":"Podcast 424",
+  "sourceLink":"https://www.youtube.com/watch?v=gRPSFMCvOx4"
+},
+{
+  "id":"078",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/womans_right.mp3"
+  ],
+  "quote":"I think it is a woman's right to unsub her child.",
+  "source":"Podcast 424",
+  "sourceLink":"https://www.youtube.com/watch?v=gRPSFMCvOx4"
+},
+{
+  "id":"079",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/rocco_laugh_1.mp3"
+  ],
+  "quote":"*laugh*",
+  "source":"Podcast 424",
+  "sourceLink":"https://www.youtube.com/watch?v=gRPSFMCvOx4"
+},
+{
+  "id":"080",
+  "characterClass":"Garrett_1",
+  "characterName":"Garrett",
+  "cast":"Garrett",
+  "audio": [
+    "./audio/banger_from_way_back.mp3"
+  ],
+  "quote":"Little do they know, that I've <em>been</em> bangin' since back in the day, the whole time.",
+  "source":"Podcast 424",
+  "sourceLink":"https://www.youtube.com/watch?v=gRPSFMCvOx4"
+},
+{
+  "id":"081",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/rocco_laugh_2.mp3"
+  ],
+  "quote":"*laugh*",
+  "source":"Podcast 424",
+  "sourceLink":"https://www.youtube.com/watch?v=gRPSFMCvOx4"
+},
+{
+  "id":"082",
+  "characterClass":"merchant",
+  "characterName":"Merchant",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/whatre_ya_buyin.mp3"
+  ],
+  "quote":"What're ya buyin'?",
+  "source":"Mega64: Resident Evil 4",
+  "sourceLink":"https://www.youtube.com/watch?v=7oXx0qwe0wc"
 },
 ];
