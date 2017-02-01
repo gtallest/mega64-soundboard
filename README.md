@@ -6,7 +6,7 @@ Check out the soundboard [here](http://mega64soundboard.com/), and tweet/follow 
 
 Weekly updates (hopefully)!
 
-### Data Needed for Quotes
+## Data Needed for Quotes
 Please send quotes or quote information! The following are needed for an entire quote.
 
 * The quote itself
@@ -17,7 +17,7 @@ Please send quotes or quote information! The following are needed for an entire 
 
 
 
-### Quote Backlog
+## Quote Backlog
 
 These are quotes that are missing some data and/or have not been added to the soundboard. If you know a source or a link, help speed up the process by sending it over! If I do not have the source/sound of a quote, I can add it to the board, but it will just not play any sound.
 
@@ -27,11 +27,11 @@ These are quotes that are missing some data and/or have not been added to the so
 |1/31/2017|"Fuck the fuck no"|Derrick||???||Dr. Ryan|
 |1/31/2017|"He's Eatin' Ass!"|Garrett||???||Dr. Ryan|
 
-#### Future Plans
+### Future Plans
 
 Currently the site is using jQuery, but I would like to rebuild the site using React, and possibly use Firebase to handle some data. I would like to finish the Favorites feature, and possibly add some kind of upvoting/downvoting functionality, so that it can be possible to see the quotes people love the most.
 
-#### Thanks to:
+### Thanks to:
 Mega64<br>
 @mega64_quotes<br>
 @mega64quotes<br>
