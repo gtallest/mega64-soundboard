@@ -20,7 +20,14 @@ $(document).ready(function(){
 
   /* Handle Board Data */
   //Sort alphabetically by character name
-  json.sort(function(a,b) {return (a["characterName"] > b["characterName"]) ? 1 : ((b["characterName"] > a["characterName"]) ? -1 : 0);} );
+  json.sort(function(a,b) {
+    var firstChar = a["characterClass"].toLowerCase();
+    var secondChar = b["characterClass"].toLowerCase();
+    var firstQuote = a["quote"].toLowerCase();
+    var secondQuote = b["quote"].toLowerCase();
+    return (firstChar < secondChar ? -1 : firstChar > secondChar ? 1 : firstQuote < secondQuote ? -1 : firstQuote > secondQuote ? 1 : 0);
+    // return (a["characterClass"].toLowerCase() > b["characterClass"].toLowerCase()) ? 1 : ((b["characterClass"].toLowerCase() > a["characterClass"].toLowerCase()) ? -1 : 0);
+  });
 
   // Create board
   for(var j in json){

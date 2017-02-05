@@ -180,7 +180,7 @@ var json = [{
 },
 {
   "id":"016",
-  "characterClass":"sixtyFour",
+  "characterClass":"z_sixtyFour",
   "characterName":"mega64",
   "cast":"Mega64",
   "audio": [
@@ -396,7 +396,7 @@ var json = [{
 // },
 // {
 //   "id":"034",
-//   "characterClass":"sixtyFour",
+//   "characterClass":"z_sixtyFour",
 //   "characterName":"mega64",
 //   "cast":"Mega64",
 //   "audio": [
@@ -993,5 +993,269 @@ var json = [{
   "quote":"What're ya buyin'?",
   "source":"Mega64: Resident Evil 4",
   "sourceLink":"https://www.youtube.com/watch?v=7oXx0qwe0wc"
+},
+{
+  "id":"083",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/show_ya_a_nut.mp3"
+  ],
+  "quote":"I'll sh- show ya a nut.",
+  "source":"great meals with derrick acosta",
+  "sourceLink":"https://www.youtube.com/watch?v=Yg7i3Kq3fII&t=17"
+},
+{
+  "id":"084",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/osadam.mp3"
+  ],
+  "quote":"What happened ina- uh New York was a tradegy, and Osadam needs to pay the price.",
+  "source":"Podcast 230",
+  "sourceLink":"https://www.youtube.com/watch?v=jzeD1ch5Oeg"
+},
+{
+  "id":"085",
+  "characterClass":"Garrett_1",
+  "characterName":"Garrett",
+  "cast":"Garrett",
+  "audio": [
+    "./audio/malcolm_f.mp3"
+  ],
+  "quote":"Malcolm F.",
+  "source":"Podcast 374 CyberCast 2015",
+  "sourceLink":"https://youtu.be/wLw8On1DhEI?t=39"
+},
+{
+  "id":"085",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/gigabytes.mp3"
+  ],
+  "quote":"Ahhhh gigabytes… oooh.",
+  "source":"Podcast 374 CyberCast 2015",
+  "sourceLink":"https://youtu.be/XKGQz6sRIQk?t=11"
+},
+{
+  "id":"086",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/record_straight.mp3"
+  ],
+  "quote":"Let me set the record straight.",
+  "source":"ROCCO TALKS ABOUT RECENT MEGA64 CONTROVERSY",
+  "sourceLink":"https://www.youtube.com/watch?v=uJZrmEFzD9U"
+},
+{
+  "id":"087",
+  "characterClass":"Garrett_1",
+  "characterName":"Garrett",
+  "cast":"Garrett",
+  "audio": [
+    "./audio/blow_me.mp3"
+  ],
+  "quote":"Blow me... blow me!",
+  "source":"Podcast 73",
+  "sourceLink":"https://youtu.be/0qd05FVqjco?t=1"
+},
+{
+  "id":"088",
+  "characterClass":"Garrett_1",
+  "characterName":"Garrett",
+  "cast":"Garrett",
+  "audio": [
+
+  ],
+  "quote":"Now listen listen… I have two DS’s in each pocket here.",
+  "source":"Podcast 271",
+  "sourceLink":""
+},
+{
+  "id":"089",
+  "characterClass":"Bryan_1",
+  "characterName":"Bryan",
+  "cast":"Bryan",
+  "audio": [
+    "./audio/time_stop.mp3"
+  ],
+  "quote":"Sometime I feel like time stop!",
+  "source":"Sometimes…",
+  "sourceLink":"https://youtu.be/6BEmpOE8Al8?t=15"
+},
+{
+  "id":"090",
+  "characterClass":"Garrett_1",
+  "characterName":"Garrett",
+  "cast":"Garrett",
+  "audio": [
+    "./audio/ready_to_blow.mp3"
+  ],
+  "quote":"I think, yes, I think the bran has already started working. I’m ready to blow as we speak.",
+  "source":"this is what you all thing of me 2",
+  "sourceLink":"https://youtu.be/RNg0-QRP-Ow?list=LL6uJb6c2YtC91H8c-_8rvTg&t=153"
+},
+{
+  "id":"091",
+  "characterClass":"Garrett_1",
+  "characterName":"Garrett",
+  "cast":"Garrett",
+  "audio": [
+    "./audio/fruitsnax.mp3"
+  ],
+  "quote":"Yooo, iz ya boy fruitsnax.",
+  "source":"look what I found in my house",
+  "sourceLink":"https://www.youtube.com/watch?v=gKiDzxkwmZE"
+},
+{
+  "id":"092",
+  "characterClass":"Garrett_1",
+  "characterName":"Garrett",
+  "cast":"Garrett",
+  "audio": [
+    "./audio/have_to_ask_me.mp3"
+  ],
+  "quote":"Is this a joke you have to ask me?",
+  "source":"IS THIS A JOKE YOU HAVE TO ASK ME?",
+  "sourceLink":"https://youtu.be/dKVxt8BhNDY?t=36"
+},
+{
+  "id":"093",
+  "characterClass":"Garrett_EA",
+  "characterName":"Garrett",
+  "cast":"Garrett",
+  "audio": [
+    "./audio/eatin_ass.mp3"
+  ],
+  "quote":"He's eatin' ass..?! He's eatin' ass!!",
+  "source":"Podcast 348",
+  "sourceLink":"https://www.youtube.com/watch?v=YxnIDWyLnTk&t=2m8s"
+},
+{
+  "id":"094",
+  "characterClass":"Derrick_2",
+  "characterName":"Derrick",
+  "cast":"Derrick",
+  "audio": [
+    "./audio/f_the_f_no.mp3"
+  ],
+  "quote":"Fuck the fuck no!",
+  "source":"Mega64: A3",
+  "sourceLink":"https://www.youtube.com/watch?v=RbVlpDdqI90&t=42"
+},
+{
+  "id":"095",
+  "characterClass":"Derrick_2",
+  "characterName":"Derrick",
+  "cast":"Derrick",
+  "audio": [
+
+  ],
+  "quote":"I heard you were a motherfucker.",
+  "source":"Source Needed",
+  "sourceLink":""
+},
+{
+  "id":"096",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+
+  ],
+  "quote":"This is a family show.",
+  "source":"Source Needed",
+  "sourceLink":""
+},
+{
+  "id":"097",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+
+  ],
+  "quote":"Let's get to the heat of the meat.",
+  "source":"Source Needed",
+  "sourceLink":""
+},
+{
+  "id":"098",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+
+  ],
+  "quote":"If you don't like it then... fuck you.",
+  "source":"Source Needed",
+  "sourceLink":""
+},
+{
+  "id":"099",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+
+  ],
+  "quote":"Posi vibes.",
+  "source":"Source Needed",
+  "sourceLink":""
+},
+{
+  "id":"100",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+
+  ],
+  "quote":"I was a banger since back in the day.",
+  "source":"Source Needed",
+  "sourceLink":""
+},
+{
+  "id":"101",
+  "characterClass":"Derrick_2",
+  "characterName":"Derrick",
+  "cast":"Derrick",
+  "audio": [
+
+  ],
+  "quote":"Heeeeyy… I’m gonna fuckin’ kiiiilll yooouuu.",
+  "source":"Joker Voice",
+  "sourceLink":""
+},
+{
+  "id":"102",
+  "characterClass":"christopherDemon",
+  "characterName":"Christopher Demon",
+  "cast":"Shawn",
+  "audio": [
+
+  ],
+  "quote":"Do you agree to the terms of service?",
+  "source":"Sytefreek",
+  "sourceLink":""
+},
+{
+  "id":"103",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+
+  ],
+  "quote":"You wake up until you go to fuckin’ bed.",
+  "source":"Mega64 Black Friday 2016 Stream",
+  "sourceLink":"https://www.youtube.com/watch?v=Gw_UmXoDrSo"
 },
 ];

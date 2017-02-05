@@ -538,6 +538,9 @@ transform: scale(0.98, 0.98);
 .Garrett_1 {
   background-image:url('../images/garrett2.png');
 }
+.Garrett_EA {
+  background-image:url('../images/garrett_ea.png');
+}
 
 .Derrick_1 {
   background-image:url('../images/derrick.png');
@@ -546,7 +549,7 @@ transform: scale(0.98, 0.98);
   background-image:url('../images/derrick2_2.png');
 }
 
-.sixtyFour {
+.z_sixtyFour {
   background-image:url('../images/64.png');
 }
 
