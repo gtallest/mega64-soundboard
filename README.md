@@ -29,19 +29,19 @@ Scroll table right for more info =====>
 |2/2/2017|"AHH MY COCK"|Rocco|||???|/u/Keaton223||
 |2/2/2017|"CUT!"|Rocco|||???|/u/cyber_goblin||
 |2/1/2017|"You wake up until you go to fuckin' bed."||Mega64 Black Friday 2016 Stream|https://www.youtube.com/watch?v=Gw_UmXoDrSo||@x3isofficial||
-|2/1/2017|"Do you agree to the terms of service?"|Shawn|Christopher Demon|Sytefreek etc.||@rithanvios||
+|2/1/2017|"Do you agree to the terms of service?"|Shawn|Christopher Demon|Sytefreek etc.||@rithanvios|no sound|
 |2/1/2017|More Christopher Demon|Shawn|Christopher Demon|Sytefreek etc.||@odamnwolf||
-|2/1/2017|"Heeeeyy... I'm gonna fuckin' kiiiilll yooouuu."|Derrick||Joker Voice||/u/transfixedonwhy||
+|2/1/2017|"Heeeeyy... I'm gonna fuckin' kiiiilll yooouuu."|Derrick||Joker Voice||/u/transfixedonwhy|no sound|
 |2/1/2017|Podcast Segment Intros / Lines|Crew||???||/u/transfixedonwhy||
 |2/1/2017|"Gimmeallyourmoney!"|Eric|Robber|DRAGONBALL Z LIVE ACTION MOVIE TRAILER (OFFICIAL)|https://youtu.be/4Ojd5cNDekc?t=1m46s|/u/KingLouie501||
 |2/1/2017|Best of Garrett Hunter|Garrett|||https://www.youtube.com/watch?v=hys0tg8uHyw|/u/RandyTortilla||
 |2/1/2017|Evangelion Rant|Shawn||???||/u/RandyTortilla||
 |2/1/2017|"I heard you were a motherfucker"|Derrick||???||/u/Bertrum|no sound|
-|2/1/2017|"I was a banger since back in the day"|Rocco||???||/u/Bertrum||
-|2/1/2017|"Posi vibes"|Rocco||???||/u/Bertrum||
-|2/1/2017|"If you don't like it then...Fuck You"|Rocco||???||/u/Bertrum||
-|2/1/2017|"Let's get to the heat of the meat"|Rocco||???||/u/Bertrum||
-|2/1/2017|"This is a family show"|Rocco||???||/u/Bertrum||
+|2/1/2017|"I was a banger since back in the day"|Rocco||???||/u/Bertrum|no sound|
+|2/1/2017|"Posi vibes"|Rocco||???||/u/Bertrum|no sound|
+|2/1/2017|"If you don't like it then...Fuck You"|Rocco||???||/u/Bertrum|no sound|
+|2/1/2017|"Let's get to the heat of the meat"|Rocco||???||/u/Bertrum|no sound|
+|2/1/2017|"This is a family show"|Rocco||???||/u/Bertrum|no sound|
 |2/1/2017|"Is this a joke you have to ask me?"|Garrett||IS THIS A JOKE YOU HAVE TO ASK ME?|https://youtu.be/dKVxt8BhNDY?t=36|Chandler|✅️ 2/5/2017|
 |2/1/2017|"Yooo, it's ya boy fruitsnax."|Garrett||look what I found in my house|https://www.youtube.com/watch?v=gKiDzxkwmZE|Chandler|✅️ 2/5/2017|
 |2/1/2017|"Sometime I feel like time stop."|Bryan||Sometimes...|https://youtu.be/6BEmpOE8Al8?t=15|Chandler|✅️ 2/4/2017|
