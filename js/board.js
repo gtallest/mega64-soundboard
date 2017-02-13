@@ -6,6 +6,7 @@ $(document).ready(function(){
       charArray = [],
       quotesAndChars,
       noAudio = '',
+      newBadge,
       displayCookieWarning = true;
 
   /* Assign Cookie Actions */
@@ -39,8 +40,13 @@ $(document).ready(function(){
     else {
       noAudio = '';
     }
+    if(parseInt(json[j].id) >= 83){
+      newBadge = '<div class="newBadge"><span>New</span></div>';
+    } else {
+      newBadge = '';
+    }
 
-    var portraitHTML = '<li>      <div class="portrait-image ' + json[j].characterClass + ' ' + json[j].cast + '" data-id=' + json[j].id + '>      </div>      <div class="tool-tip">' + json[j].characterName + '<div class="triangle">        </div>      </div>      <div class="speech-bubble"><span class="quote-text">"' + json[j].quote + '"</span><span class="quote-divider"></span><span class="quote-source">-<a href="' + json[j].sourceLink + '" target="_blank">' + json[j].source + '</a></span></div> ' + noAudio + '     <audio preload="none">      <source src="' + json[j].audio[0] + '" type="audio/mp3"/></audio>    </li>\n';
+    var portraitHTML = '<li>      <div class="portrait-image ' + json[j].characterClass + ' ' + json[j].cast + '" data-id=' + json[j].id + '>      </div>      <div class="tool-tip">' + json[j].characterName + '<div class="triangle">        </div>      </div>      <div class="speech-bubble"><span class="quote-text">"' + json[j].quote + '"</span><span class="quote-divider"></span><span class="quote-source">-<a href="' + json[j].sourceLink + '" target="_blank">' + json[j].source + '</a></span></div> ' + noAudio + newBadge + '     <audio preload="none">      <source src="' + json[j].audio[0] + '" type="audio/mp3"/></audio>    </li>\n';
 
     boardHTML += portraitHTML;
 
@@ -63,6 +69,22 @@ $(document).ready(function(){
 
   /* Board Logic */
 
+  // Konami Code
+  const konami = "ArrowUp, ArrowUp, ArrowDown, ArrowDown, ArrowLeft, ArrowRight, ArrowLeft, ArrowRight, b, a, Enter";
+  const input = [];
+
+  window.addEventListener('keyup', function(e){
+    input.push(e.key);
+    input.splice(-konami.split(', ').length - 1, input.length - konami.split(', ').length);
+    if(input.join('').includes(konami.split(', ').join(''))){
+      gunther();
+    }
+  });
+
+
+
+
+
 
   // Ron Paul
   $('div[data-id=016]').on('click',function(e){
@@ -84,6 +106,10 @@ $(document).ready(function(){
     var audio = this.parentNode.getElementsByTagName('audio')[0];
     audio.play();
   });
+
+  $('#changeLogButton').on('click', function(){
+    $('#changeLog').slideToggle();
+  })
 
   /* Search View */
   $('#search-clear').on('click', function(){
@@ -268,6 +294,36 @@ $(document).ready(function(){
     $('#search input').val('');
     $('#search input').keyup();
     $('#search-clear').fadeOut();
+  }
+
+  function gunther() {
+    $('body').addClass('exploding');
+    var sound = document.querySelector('#gunther');
+    sound.play();
+    var interval = setInterval(explosion, 250);
+    sound.addEventListener('ended', function() {
+      console.log('end');
+      clearInterval(interval);
+      $('body').removeClass('exploding');
+    });
+
+  }
+
+  function explosion() {
+    var windowWidth = window.innerWidth;
+    var windowHeight = window.innerHeight;
+    var scrollYTop = window.scrollY;
+    var randomSize = (Math.random() * 550) + 175;
+    var randomTop = Math.random() * (windowHeight) + scrollYTop;
+    var randomLeft = Math.random() * windowWidth;
+    var body = document.querySelector('body');
+
+    var explosion = document.createElement('div');
+    explosion.classList.add('explosion');
+    explosion.style.cssText = (`background-size: ${randomSize}px ${randomSize}px; width:${randomSize}px; height:${randomSize}px; top: ${randomTop}px; left:${randomLeft}px`);
+    body.appendChild(explosion);
+    setTimeout(function() {body.removeChild(explosion) }, 500);
+    // console.log(`Size: ${randomSize} Top: ${randomTop} Left: ${randomLeft}`);
   }
 
 });

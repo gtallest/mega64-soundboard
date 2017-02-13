@@ -1098,7 +1098,7 @@ var json = [{
   "audio": [
     "./audio/ready_to_blow.mp3"
   ],
-  "quote":"I think, yes, I think the bran has already started working. I’m ready to blow as we speak.",
+  "quote":"I think, yes, I think... the bran has already started working. I’m- I am ready to blow as we speak.",
   "source":"this is what you all thing of me 2",
   "sourceLink":"https://youtu.be/RNg0-QRP-Ow?list=LL6uJb6c2YtC91H8c-_8rvTg&t=153"
 },
@@ -1257,5 +1257,77 @@ var json = [{
   "quote":"You wake up until you go to fuckin’ bed.",
   "source":"Mega64 Black Friday 2016 Stream",
   "sourceLink":"https://www.youtube.com/watch?v=Gw_UmXoDrSo"
+},
+{
+  "id":"104",
+  "characterClass":"z_sixtyFour",
+  "characterName":"Mega64",
+  "cast":"Rocco Shawn Garrett Derrick",
+  "audio": [
+    "./audio/evangelion_rant.mp3"
+  ],
+  "quote":"Shawn's Evangelion Rant.",
+  "source":"Mega64 Podcast - Shawn RAGE",
+  "sourceLink":"https://www.youtube.com/watch?v=UdY80YvH9C8"
+},
+{
+  "id":"105",
+  "characterClass":"robber",
+  "characterName":"Robber of Saiyans",
+  "cast":"Eric",
+  "audio": [
+    "./audio/gimmeallyourmoney.mp3"
+  ],
+  "quote":"Gimmeallyourmoney!",
+  "source":"DRAGONBALL Z LIVE ACTION MOVIE TRAILER (OFFICIAL)",
+  "sourceLink":"https://youtu.be/4Ojd5cNDekc?t=1m46s"
+},
+{
+  "id":"106",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+    "./audio/Rocco-ISO-Fixed.mp3"
+  ],
+  "quote":"I wanna f- I definitely want to get fucked by a black man.",
+  "source":"Source Needed",
+  "sourceLink":"https://soundcloud.com/jrod365/rocco-iso-fixed"
+},
+{
+  "id":"107",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+
+  ],
+  "quote":"AHH MY COCK!",
+  "source":"Source Needed",
+  "sourceLink":""
+},
+{
+  "id":"108",
+  "characterClass":"Rocco_1",
+  "characterName":"Rocco",
+  "cast":"Rocco",
+  "audio": [
+
+  ],
+  "quote":"CUT!",
+  "source":"Source Needed",
+  "sourceLink":""
+},
+{
+  "id":"109",
+  "characterClass":"z_returnFire",
+  "characterName":"Segment Intro",
+  "cast":"Return Fire",
+  "audio": [
+    "./audio/return_fire.mp3"
+  ],
+  "quote":"Return Fire",
+  "source":"Podcast 424",
+  "sourceLink":"https://www.youtube.com/watch?v=gRPSFMCvOx4&55m19s"
 },
 ];

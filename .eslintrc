@@ -7,6 +7,8 @@
   "rules": {
     "comma-dangle": [0, "only-multiline"],
     "no-console": 0,
-    "no-unused-vars": 0
+    "no-unused-vars": 0,
+    "no-undef": 0,
+    "js" : "off"
     }
 }

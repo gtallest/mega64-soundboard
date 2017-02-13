@@ -17,6 +17,7 @@ Please send quotes or quote information! The following are needed for an entire 
 
 
 
+
 ## Quote Backlog
 
 These are quotes that are missing some data and/or have not been added to the soundboard. If you know a source or a link, help speed up the process by sending it over! If I do not have the source/sound of a quote, I can add it to the board, but it will just not play any sound.
@@ -26,16 +27,23 @@ Scroll table right for more info =====>
 | Date | Quote | Quotee | Character | Source | Link | Submitted by: | Added? |
 |:----:|:-----:|:------:|:---------:|:------:|:----:|:-------------:|:------:|
 |||||||||
-|2/2/2017|"AHH MY COCK"|Rocco|||???|/u/Keaton223||
-|2/2/2017|"CUT!"|Rocco|||???|/u/cyber_goblin||
+|||||||||
+|2/8/2017|Things Garrett Has Said|Garrett|||???|@TroutAmbush||
+|2/8/2017||||JEHUTY DAY (FEATURING A SICKO)|https://www.youtube.com/watch?v=LT_emU4WiIw|@TroutAmbush||
+|2/8/2017||||CAPTAIN QUIZNO'S|https://www.youtube.com/watch?v=ez2-nDLgWa4|@TroutAmbush||
+|2/7/2017|"Xizor"|Garrett||Podcast 414 - 1:13:10||codyb_14||
+|2/5/2017|"I definitely want to get fucked by a black man."|Rocco||???|https://soundcloud.com/jrod365/rocco-iso-fixed|@everrrrlong|✅️ 2/12/2017|
+|2/5/2017|Derrick Acosta's finest moment|Derrick & Others||Derrick Acosta's finest moment|https://www.youtube.com/watch?v=2GRGGcXVw7c|@DoubleDiggur||
+|2/2/2017|"AHH MY COCK"|Rocco|||???|/u/Keaton223|no sound|
+|2/2/2017|"CUT!"|Rocco|||???|/u/cyber_goblin|no sound|
 |2/1/2017|"You wake up until you go to fuckin' bed."||Mega64 Black Friday 2016 Stream|https://www.youtube.com/watch?v=Gw_UmXoDrSo||@x3isofficial||
 |2/1/2017|"Do you agree to the terms of service?"|Shawn|Christopher Demon|Sytefreek etc.||@rithanvios|no sound|
 |2/1/2017|More Christopher Demon|Shawn|Christopher Demon|Sytefreek etc.||@odamnwolf||
 |2/1/2017|"Heeeeyy... I'm gonna fuckin' kiiiilll yooouuu."|Derrick||Joker Voice||/u/transfixedonwhy|no sound|
 |2/1/2017|Podcast Segment Intros / Lines|Crew||???||/u/transfixedonwhy||
-|2/1/2017|"Gimmeallyourmoney!"|Eric|Robber|DRAGONBALL Z LIVE ACTION MOVIE TRAILER (OFFICIAL)|https://youtu.be/4Ojd5cNDekc?t=1m46s|/u/KingLouie501||
-|2/1/2017|Best of Garrett Hunter|Garrett|||https://www.youtube.com/watch?v=hys0tg8uHyw|/u/RandyTortilla||
-|2/1/2017|Evangelion Rant|Shawn||???||/u/RandyTortilla||
+|2/1/2017|"Gimmeallyourmoney!"|Eric|Robber|DRAGONBALL Z LIVE ACTION MOVIE TRAILER (OFFICIAL)|https://youtu.be/4Ojd5cNDekc?t=1m46s|/u/KingLouie501|✅️ 2/12/2017|
+|2/1/2017|Best of Garrett Hunter|Garrett|||https://www.youtube.com/watch?v=hys0tg8uHyw|/u/RandyTortilla|In Progress|
+|2/1/2017|Evangelion Rant|Shawn||Mega64 Podcast - Shawn RAGE|https://www.youtube.com/watch?v=UdY80YvH9C8|/u/RandyTortilla|✅️ 2/12/2017|
 |2/1/2017|"I heard you were a motherfucker"|Derrick||???||/u/Bertrum|no sound|
 |2/1/2017|"I was a banger since back in the day"|Rocco||???||/u/Bertrum|no sound|
 |2/1/2017|"Posi vibes"|Rocco||???||/u/Bertrum|no sound|
@@ -62,6 +70,9 @@ Scroll table right for more info =====>
 * Latest updates / info box
 * Work on favorites feature
 * Upvoting feature (?)
+* New quotes symbol
+* num of times sound played counter
+* Secret code
 
 Currently the site is using jQuery, but I would like to rebuild the site using React, and possibly use Firebase to handle some data.
 
